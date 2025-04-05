@@ -1,0 +1,5123 @@
+[
+    {
+        "id": "a7af766e5893a2ae",
+        "type": "tab",
+        "label": "Kontrol Paneli",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "10e7f02c9f29f44b",
+        "type": "group",
+        "z": "a7af766e5893a2ae",
+        "name": "Dil Seçeneği",
+        "style": {
+            "label": true,
+            "stroke": "#92d04f",
+            "fill": "#e3f3d3",
+            "color": "#000000"
+        },
+        "nodes": [
+            "1dc31e8caf8bda2a",
+            "1194ba77a73823d0",
+            "012209a1c95b1e59",
+            "bde6b1950b897706",
+            "7f7c8e279b41002d",
+            "b31dac003d65dabb",
+            "1d1e15b99dc07daa",
+            "3f4c6a083fd24162"
+        ],
+        "x": 414,
+        "y": 1879,
+        "w": 792,
+        "h": 142
+    },
+    {
+        "id": "9662d192854de326",
+        "type": "group",
+        "z": "a7af766e5893a2ae",
+        "name": "Gaz-Sıcaklık İşlemleri",
+        "style": {
+            "label": true,
+            "stroke": "#92d04f",
+            "fill": "#e3f3d3",
+            "color": "#000000"
+        },
+        "nodes": [
+            "read_float",
+            "process_modbus_data",
+            "process_gaz",
+            "process_sicaklik",
+            "50558700a06045d8",
+            "8a62adb053dddc8d",
+            "71036c4d83561778",
+            "3169ef7cae55d6df",
+            "b854438357979c29",
+            "123a255447dfb5ad",
+            "deb7b1634695b0c7",
+            "1c641e315c062c3b",
+            "0ebbba84b1c8df6f",
+            "61c5e747e255ef33",
+            "81a1f96feac1868f",
+            "2b9541a08e724841",
+            "6557d7fe431a2a45",
+            "c2e6be66696d6d81",
+            "d01397c39a7cd80d",
+            "43219f910a28fbc1",
+            "0f1a1f4ecd4bd570",
+            "10eda9484bfbc010",
+            "modbus-read-target-gas",
+            "f29d581c07a94539",
+            "00c3ce50b39626ad"
+        ],
+        "x": 154,
+        "y": 19,
+        "w": 1618,
+        "h": 1122
+    },
+    {
+        "id": "eda83afd69541613",
+        "type": "group",
+        "z": "a7af766e5893a2ae",
+        "name": "Cihaz Bilgileri",
+        "style": {
+            "label": true,
+            "stroke": "#92d04f",
+            "fill": "#e3f3d3",
+            "color": "#000000"
+        },
+        "nodes": [
+            "3c6fbb7676cc0736",
+            "0ae58bdc126b3a48",
+            "3bd7b6deb0080d0b",
+            "a8791e5d2ddf648d"
+        ],
+        "x": 314,
+        "y": 1339,
+        "w": 932,
+        "h": 102
+    },
+    {
+        "id": "be5ffbf049e65b30",
+        "type": "group",
+        "z": "a7af766e5893a2ae",
+        "name": "Cihaz Durumu",
+        "style": {
+            "label": true,
+            "stroke": "#92d04f",
+            "fill": "#e3f3d3",
+            "color": "#000000"
+        },
+        "nodes": [
+            "67ada25d3fb7a54a",
+            "0fe354f5efbad65c",
+            "80f7f03850f3b389",
+            "ae9a50798689eb61"
+        ],
+        "x": 294,
+        "y": 1499,
+        "w": 972,
+        "h": 82
+    },
+    {
+        "id": "546f3f2dc93a35af",
+        "type": "group",
+        "z": "a7af766e5893a2ae",
+        "name": "Ölçüm Parametreleri",
+        "style": {
+            "stroke": "#92d04f",
+            "fill": "#e3f3d3",
+            "label": true,
+            "color": "#000000"
+        },
+        "nodes": [
+            "7b692813900abd45",
+            "7b5f174425e43e22",
+            "7b5e15c7fd6ecead",
+            "55fb79d92a329d82"
+        ],
+        "x": 294,
+        "y": 1759,
+        "w": 972,
+        "h": 82
+    },
+    {
+        "id": "0687124dfa7e70fe",
+        "type": "group",
+        "z": "a7af766e5893a2ae",
+        "name": "Alarm 1 Durumları",
+        "style": {
+            "label": true,
+            "stroke": "#000000",
+            "color": "#000000",
+            "fill": "#e3f3d3"
+        },
+        "nodes": [
+            "2b8e039e3bdbfe69",
+            "81a3ed864e0f3e58",
+            "e101f784be4d2411",
+            "2e8a5683ba5dcc4a",
+            "c603f343d0ed9e9e",
+            "728e2f13e55c74ea",
+            "f14b93722e759685",
+            "1e35e70cd43ad2a5",
+            "1385264b23523544",
+            "5d5451b947ba2706",
+            "3941de67cd902a60",
+            "085757d8c41fd616",
+            "94b47c9c5c6937da",
+            "6d7ea59e368f67d1",
+            "edd3a453d27e9748",
+            "4cbce76f345dac76",
+            "bb13f23c0f9282c0",
+            "a730bd9191931cf4",
+            "acda7a0711e7de13",
+            "11a0b53741b4fe38"
+        ],
+        "x": 174,
+        "y": 2119,
+        "w": 1372,
+        "h": 442
+    },
+    {
+        "id": "30e524baaa4e2c10",
+        "type": "group",
+        "z": "a7af766e5893a2ae",
+        "name": "Alarm 2 Durumları",
+        "style": {
+            "label": true,
+            "stroke": "#000000",
+            "color": "#000000",
+            "fill": "#e3f3d3"
+        },
+        "nodes": [
+            "04b722eb74195eaf",
+            "2216d8138d0cf6f1",
+            "a15a814fe4289546",
+            "d334ffddea3d1dd4",
+            "6e384fbd15027a1e",
+            "d485eaf019006bdf",
+            "396d30ee654dd5ea",
+            "3ddaed358a8b61d1",
+            "6cebaba3d1db9d69",
+            "e87f7f61fb215190",
+            "8f0a06a759027548",
+            "a54d9d314a3d382f",
+            "8a227d79fa4bd215"
+        ],
+        "x": 274,
+        "y": 2619,
+        "w": 992,
+        "h": 402
+    },
+    {
+        "id": "cbbc73b08118fd6c",
+        "type": "group",
+        "z": "a7af766e5893a2ae",
+        "name": "mA değerleri",
+        "style": {
+            "stroke": "#e3f3d3",
+            "label": true,
+            "color": "#000000",
+            "fill": "#e3f3d3"
+        },
+        "nodes": [
+            "b4c71604edb74db2",
+            "155204fc1f911467",
+            "8a114d01e40ad334",
+            "c6280db1fe3221f9",
+            "54a450db426f49b3",
+            "45912986635e2f06",
+            "dd10354078cf1e18",
+            "c4a84de246b4c3ab",
+            "b7cf479e649f1897",
+            "b68c36b746e9a2ee",
+            "92abb6c0880a0872",
+            "018d2dd75cdaa888",
+            "4ac61edcb132eade",
+            "aee7d66f6332da76"
+        ],
+        "x": 294,
+        "y": 3159,
+        "w": 1192,
+        "h": 362
+    },
+    {
+        "id": "49735435522e4a7c",
+        "type": "group",
+        "z": "a7af766e5893a2ae",
+        "name": "Mod çıkışları",
+        "style": {
+            "stroke": "#e3f3d3",
+            "fill": "#e3f3d3",
+            "label": true,
+            "color": "#000000"
+        },
+        "nodes": [
+            "664375d139223cc3",
+            "cde9569f7dbf04f4",
+            "043ccb8a4c774686",
+            "594a6f47c48d7e97",
+            "7156a10b090d3573",
+            "46880792a263e07a",
+            "695a16d975057cfa",
+            "45a8c34fd8fefbaf",
+            "15e17a0f0d3e363d",
+            "bfe678ed0b5a252e",
+            "13816edb575a0ed3",
+            "b7e545300a4a4e69",
+            "dcba31b1c3c8b2e5",
+            "9344ceba21779480",
+            "a473b7578f3f07f8",
+            "c90ed88bb249702a"
+        ],
+        "x": 334,
+        "y": 3679,
+        "w": 1272,
+        "h": 422
+    },
+    {
+        "id": "7148e5aacbd83664",
+        "type": "group",
+        "z": "a7af766e5893a2ae",
+        "name": "Gaz Kalibrasyonu Yazma",
+        "style": {
+            "stroke": "#e3f3d3",
+            "fill": "#e3f3d3",
+            "label": true,
+            "color": "#000000"
+        },
+        "nodes": [
+            "ada1cdf994c807cd",
+            "7050cc5240d245aa",
+            "dccdc80c07d1c79c",
+            "a8ae900d90646a8b",
+            "e56d5d42c472f373",
+            "cd76055e40d1805a",
+            "cf4540f5fec4e016",
+            "6319ad3211397c38",
+            "d0cd4a1cd16da61c",
+            "22b2fddbcf1d2a54",
+            "68ca078b587abc4e",
+            "291e4524336106d2",
+            "930851d93a1ba2a4",
+            "1ec5e0957506a58e",
+            "75b75b187377b306",
+            "2b47f9e39e779e51",
+            "6e0a872591c1be2d",
+            "818de5987dfb26e8",
+            "6969d8aea49f597b"
+        ],
+        "x": 294,
+        "y": 4179,
+        "w": 1332,
+        "h": 562
+    },
+    {
+        "id": "d65eaa2c0f927f2d",
+        "type": "group",
+        "z": "a7af766e5893a2ae",
+        "name": "Gaz Kalibrasyonu Okuma ",
+        "style": {
+            "stroke": "#e3f3d3",
+            "fill": "#e3f3d3",
+            "label": true,
+            "color": "#000000"
+        },
+        "nodes": [
+            "283b6690284d80f9",
+            "b0b9c55d2679e797",
+            "81122d837ef1536a",
+            "81966f4658302e5c",
+            "c8185395875f6b2e",
+            "4ff3a1871d9d333e",
+            "6c057464eb304feb",
+            "9bd68661c06e578f",
+            "8529e2ba87102334",
+            "506d8229298f6f43",
+            "338d3cc462f57960",
+            "af334bd2363a7680",
+            "7be2e522c755fbbe",
+            "c17c4655107cbe36"
+        ],
+        "x": 394,
+        "y": 4879,
+        "w": 1152,
+        "h": 522
+    },
+    {
+        "id": "6ec2728d8720167d",
+        "type": "group",
+        "z": "a7af766e5893a2ae",
+        "name": "Com seçim işlemi",
+        "style": {
+            "stroke": "#e3f3d3",
+            "fill": "#e3f3d3",
+            "label": true,
+            "color": "#000000"
+        },
+        "nodes": [
+            "80024b90c7a7a188",
+            "54ce64f9a00487f2",
+            "5abbe547bf82a812",
+            "c12b97909ea0c576",
+            "cad7652c4017df7d"
+        ],
+        "x": 274,
+        "y": 5471.5,
+        "w": 852,
+        "h": 189.5
+    },
+    {
+        "id": "b854438357979c29",
+        "type": "group",
+        "z": "a7af766e5893a2ae",
+        "g": "9662d192854de326",
+        "name": "",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "sicaklik_degeri",
+            "sicaklik_grafigi",
+            "a51cafb7e1661d4a",
+            "c131eda49140d4e2",
+            "2cc18a19ff4f2e1a",
+            "7c74aeb67380d01b",
+            "3254285afb9d1b02",
+            "9d82e1d9ac559fe7",
+            "816343da0f99eeb1"
+        ],
+        "x": 1514,
+        "y": 599,
+        "w": 232,
+        "h": 502
+    },
+    {
+        "id": "123a255447dfb5ad",
+        "type": "group",
+        "z": "a7af766e5893a2ae",
+        "g": "9662d192854de326",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "gaz_degeri",
+            "gaz_seviyesi",
+            "gaz_grafigi",
+            "a1de62d053d306ec",
+            "3a8a07fb6baba584",
+            "e723e5492b6991d8",
+            "e740eaf201cb54bd",
+            "088e364cc9e87aad",
+            "7db854ff536f7b89"
+        ],
+        "x": 1514,
+        "y": 99,
+        "w": 212,
+        "h": 462
+    },
+    {
+        "id": "d01397c39a7cd80d",
+        "type": "group",
+        "z": "a7af766e5893a2ae",
+        "g": "9662d192854de326",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "729b92a79caca9c1",
+            "da3020a2964e558b",
+            "094d0cd1b4b485ac"
+        ],
+        "x": 294,
+        "y": 119,
+        "w": 792,
+        "h": 82
+    },
+    {
+        "id": "529d0af5b8fd3aa3",
+        "type": "modbus-client",
+        "name": "",
+        "clienttype": "simpleser",
+        "bufferCommands": true,
+        "stateLogEnabled": false,
+        "queueLogEnabled": false,
+        "failureLogEnabled": true,
+        "tcpHost": "127.0.0.1",
+        "tcpPort": "502",
+        "tcpType": "DEFAULT",
+        "serialPort": "COM6",
+        "serialType": "RTU",
+        "serialBaudrate": "115200",
+        "serialDatabits": "8",
+        "serialStopbits": "1",
+        "serialParity": "none",
+        "serialConnectionDelay": "100",
+        "serialAsciiResponseStartDelimiter": "0x3A",
+        "unit_id": "1",
+        "commandDelay": "1",
+        "clientTimeout": "1000",
+        "reconnectOnTimeout": true,
+        "reconnectTimeout": "2000",
+        "parallelUnitIdsAllowed": true,
+        "showErrors": false,
+        "showWarnings": true,
+        "showLogs": true
+    },
+    {
+        "id": "7a04771aa82ad9c9",
+        "type": "ui_group",
+        "name": "Dil Seç",
+        "tab": "93bd041016e2f4f8",
+        "order": 4,
+        "disp": true,
+        "width": 5,
+        "collapse": true,
+        "className": ""
+    },
+    {
+        "id": "93bd041016e2f4f8",
+        "type": "ui_tab",
+        "name": "Sensör Verileri",
+        "icon": "dashboard",
+        "order": 1,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "418e685fa47904f5",
+        "type": "ui_base",
+        "theme": {
+            "name": "theme-custom",
+            "lightTheme": {
+                "default": "#0094CE",
+                "baseColor": "#0094CE",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": true,
+                "reset": false
+            },
+            "darkTheme": {
+                "default": "#097479",
+                "baseColor": "#097479",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": true,
+                "reset": false
+            },
+            "customTheme": {
+                "name": "Untitled Theme 1",
+                "default": "#4B7930",
+                "baseColor": "#4B7930",
+                "baseFont": "Arial,Arial,Helvetica,sans-serif",
+                "reset": false
+            },
+            "themeState": {
+                "base-color": {
+                    "default": "#4B7930",
+                    "value": "#4B7930",
+                    "edited": false
+                },
+                "page-titlebar-backgroundColor": {
+                    "value": "#4B7930",
+                    "edited": false
+                },
+                "page-backgroundColor": {
+                    "value": "#111111",
+                    "edited": false
+                },
+                "page-sidebar-backgroundColor": {
+                    "value": "#333333",
+                    "edited": false
+                },
+                "group-textColor": {
+                    "value": "#6db046",
+                    "edited": false
+                },
+                "group-borderColor": {
+                    "value": "#555555",
+                    "edited": false
+                },
+                "group-backgroundColor": {
+                    "value": "#333333",
+                    "edited": false
+                },
+                "widget-textColor": {
+                    "value": "#eeeeee",
+                    "edited": false
+                },
+                "widget-backgroundColor": {
+                    "value": "#4b7930",
+                    "edited": false
+                },
+                "widget-borderColor": {
+                    "value": "#333333",
+                    "edited": false
+                },
+                "base-font": {
+                    "value": "Arial,Arial,Helvetica,sans-serif"
+                }
+            },
+            "angularTheme": {
+                "primary": "indigo",
+                "accents": "blue",
+                "warn": "red",
+                "background": "grey",
+                "palette": "light"
+            }
+        },
+        "site": {
+            "name": "Node-RED Dashboard",
+            "hideToolbar": "false",
+            "allowSwipe": "false",
+            "lockMenu": "false",
+            "allowTempTheme": "true",
+            "dateFormat": "DD/MM/YYYY",
+            "sizes": {
+                "sx": 48,
+                "sy": 48,
+                "gx": 6,
+                "gy": 6,
+                "cx": 6,
+                "cy": 6,
+                "px": 0,
+                "py": 0
+            }
+        }
+    },
+    {
+        "id": "f76c74bd4e95e2fa",
+        "type": "ui_group",
+        "name": "Gaz Sensör Verileri",
+        "tab": "93bd041016e2f4f8",
+        "order": 1,
+        "disp": true,
+        "width": 16,
+        "collapse": true,
+        "className": ""
+    },
+    {
+        "id": "5fc72ba4.b156b4",
+        "type": "modbus-client",
+        "name": "Modbus TCP/IP Client",
+        "clienttype": "tcp",
+        "bufferCommands": true,
+        "stateLogEnabled": false,
+        "queueLogEnabled": false,
+        "failureLogEnabled": false,
+        "tcpHost": "192.168.1.100",
+        "tcpPort": "502",
+        "tcpType": "DEFAULT",
+        "serialPort": "",
+        "serialConnectionDelay": "",
+        "serialAsciiResponseStartDelimiter": "",
+        "unit_id": "1",
+        "commandDelay": "",
+        "clientTimeout": "",
+        "reconnectOnTimeout": true,
+        "reconnectTimeout": "",
+        "parallelUnitIdsAllowed": true,
+        "showErrors": false,
+        "showWarnings": true,
+        "showLogs": true
+    },
+    {
+        "id": "a5c5cbef.d67268",
+        "type": "ui_group",
+        "name": "Modbus Data",
+        "tab": "",
+        "order": 1,
+        "disp": true,
+        "width": "12",
+        "collapse": false
+    },
+    {
+        "id": "832c5b14f79c6f30",
+        "type": "ui_group",
+        "name": "ModbasDeneme",
+        "tab": "",
+        "order": 2,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "ab22f259def9afbf",
+        "type": "ui_group",
+        "name": "Cihaz Durumu",
+        "tab": "f6f80dfb6a20a7e2",
+        "order": 3,
+        "disp": true,
+        "width": 7,
+        "collapse": true,
+        "className": ""
+    },
+    {
+        "id": "4cff71acd56a636c",
+        "type": "ui_group",
+        "name": "Cihaz Bilgileri",
+        "tab": "f6f80dfb6a20a7e2",
+        "order": 6,
+        "disp": true,
+        "width": 6,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "02938d319320672a",
+        "type": "ui_group",
+        "name": "Ölçüm Parametreleri",
+        "tab": "93bd041016e2f4f8",
+        "order": 3,
+        "disp": true,
+        "width": 6,
+        "collapse": true,
+        "className": ""
+    },
+    {
+        "id": "e7c06af60368f145",
+        "type": "ui_group",
+        "name": "Sıcaklık Sensör Verileri",
+        "tab": "93bd041016e2f4f8",
+        "order": 2,
+        "disp": true,
+        "width": "16",
+        "collapse": true,
+        "className": ""
+    },
+    {
+        "id": "f6f80dfb6a20a7e2",
+        "type": "ui_tab",
+        "name": "Cihaz Durum/Bilgi",
+        "icon": "dashboard",
+        "order": 2,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "1dd1bae6b3561cdb",
+        "type": "ui_tab",
+        "name": "Alarm Durumu",
+        "icon": "dashboard",
+        "order": 3,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "2fa1bd92be1bc870",
+        "type": "ui_group",
+        "name": "Alarm  Durumları",
+        "tab": "1dd1bae6b3561cdb",
+        "order": 1,
+        "disp": true,
+        "width": "8",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "e7cd7836beb52643",
+        "type": "ui_group",
+        "name": "Read Modbus",
+        "tab": "93bd041016e2f4f8",
+        "order": 2,
+        "disp": true,
+        "width": "15",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "fb9595f41a40afd2",
+        "type": "ui_group",
+        "name": "Kalibrasyon Değeri",
+        "tab": "1dd1bae6b3561cdb",
+        "order": 3,
+        "disp": true,
+        "width": 8,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "c7cd1f70ebd4ab1e",
+        "type": "ui_group",
+        "name": "Alarm Seviyeleri Ayarlama",
+        "tab": "1dd1bae6b3561cdb",
+        "order": 4,
+        "disp": true,
+        "width": 7,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "800998772e09fb0f",
+        "type": "ui_group",
+        "name": "Mod Çıkışları",
+        "tab": "1dd1bae6b3561cdb",
+        "order": 5,
+        "disp": true,
+        "width": 8,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "c7fbc78390faf638",
+        "type": "ui_tab",
+        "name": "Gaz Kalibrasyonu",
+        "icon": "dashboard",
+        "order": 4,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "dc0db93b98018d99",
+        "type": "ui_group",
+        "name": "Gaz Kalibrasyonu",
+        "tab": "c7fbc78390faf638",
+        "order": 1,
+        "disp": true,
+        "width": 8,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "b78058c91e6065c3",
+        "type": "ui_group",
+        "name": "Kalibrasyon Buton İşlemleri",
+        "tab": "c7fbc78390faf638",
+        "order": 2,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "578b028f57287157",
+        "type": "ui_group",
+        "name": "Kalibrasyon Yazma işlemi",
+        "tab": "c7fbc78390faf638",
+        "order": 3,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "6e2d33ebf0a1f44c",
+        "type": "ui_spacer",
+        "z": "a7af766e5893a2ae",
+        "name": "spacer",
+        "group": "2fa1bd92be1bc870",
+        "order": 2,
+        "width": 8,
+        "height": 1
+    },
+    {
+        "id": "0ad01445deae3807",
+        "type": "ui_spacer",
+        "z": "a7af766e5893a2ae",
+        "name": "spacer",
+        "group": "2fa1bd92be1bc870",
+        "order": 4,
+        "width": 8,
+        "height": 1
+    },
+    {
+        "id": "4e45f2e1149dbf2a",
+        "type": "ui_spacer",
+        "z": "a7af766e5893a2ae",
+        "name": "spacer",
+        "group": "2fa1bd92be1bc870",
+        "order": 6,
+        "width": 8,
+        "height": 1
+    },
+    {
+        "id": "54601a08bef312d8",
+        "type": "ui_spacer",
+        "z": "a7af766e5893a2ae",
+        "name": "spacer",
+        "group": "c7cd1f70ebd4ab1e",
+        "order": 2,
+        "width": 7,
+        "height": 1
+    },
+    {
+        "id": "3f4e5c326c5fcf2d",
+        "type": "ui_spacer",
+        "z": "a7af766e5893a2ae",
+        "name": "spacer",
+        "group": "c7cd1f70ebd4ab1e",
+        "order": 4,
+        "width": 7,
+        "height": 1
+    },
+    {
+        "id": "9fc5191938428701",
+        "type": "ui_spacer",
+        "z": "a7af766e5893a2ae",
+        "name": "spacer",
+        "group": "c7cd1f70ebd4ab1e",
+        "order": 6,
+        "width": 7,
+        "height": 1
+    },
+    {
+        "id": "360f10e28ef57bfe",
+        "type": "ui_spacer",
+        "z": "a7af766e5893a2ae",
+        "name": "spacer",
+        "group": "c7cd1f70ebd4ab1e",
+        "order": 8,
+        "width": 7,
+        "height": 1
+    },
+    {
+        "id": "09bf6ff10410f868",
+        "type": "ui-base",
+        "name": "My Dashboard",
+        "path": "/dashboard",
+        "includeClientData": true,
+        "acceptsClientConfig": [
+            "ui-notification",
+            "ui-control"
+        ],
+        "showPathInSidebar": false,
+        "showPageTitle": true,
+        "navigationStyle": "default",
+        "titleBarStyle": "default"
+    },
+    {
+        "id": "read_float",
+        "type": "modbus-read",
+        "z": "a7af766e5893a2ae",
+        "g": "9662d192854de326",
+        "name": "Read Modbus",
+        "topic": "",
+        "showStatusActivities": false,
+        "logIOActivities": false,
+        "showErrors": false,
+        "showWarnings": true,
+        "unitid": "",
+        "dataType": "HoldingRegister",
+        "adr": "40",
+        "quantity": "4",
+        "rate": "2000",
+        "rateUnit": "ms",
+        "delayOnStart": false,
+        "startDelayTime": "10",
+        "server": "529d0af5b8fd3aa3",
+        "useIOFile": false,
+        "ioFile": "",
+        "useIOForPayload": false,
+        "emptyMsgOnFail": false,
+        "x": 350,
+        "y": 460,
+        "wires": [
+            [
+                "process_modbus_data"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "process_modbus_data",
+        "type": "function",
+        "z": "a7af766e5893a2ae",
+        "g": "9662d192854de326",
+        "name": "Process Modbus Data",
+        "func": "\n\nconst gaz = { payload: msg.payload.slice(0, 2) };\n\nconst sicaklik = { payload: msg.payload.slice(2, 4) };\n\n\n\nreturn [gaz, sicaklik];",
+        "outputs": 2,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 640,
+        "y": 460,
+        "wires": [
+            [
+                "process_gaz"
+            ],
+            [
+                "process_sicaklik"
+            ]
+        ]
+    },
+    {
+        "id": "process_gaz",
+        "type": "function",
+        "z": "a7af766e5893a2ae",
+        "g": "9662d192854de326",
+        "name": "Process Gaz",
+        "func": "var FullScale = msg.payload.fullScale;\n\nif (msg.hasOwnProperty('topic') && (msg.topic == \"%VOL\" || msg.topic == \"%LEL\" || msg.topic == \"ppm\")) {\n    context.set(\"selectedUnit\", msg.payload.GasNameUnit);\n    context.set(\"FullScale\", FullScale); \n    node.warn(\"Birim seçildi: \" + msg.payload.GasNameUnit);\n    node.warn(\"FullScale Değeri: \" + FullScale);\n    return;\n}\n\nvar selectedUnit = context.get(\"selectedUnit\");\nFullScale = context.get(\"FullScale\"); \n\n// \nif (typeof selectedUnit === 'undefined') {\n    node.warn(\"Birim seçimi yapılmadı! Varsayılan olarak %VOL kullanılıyor.\");\n    selectedUnit = '%VOL';\n}\n\nif (typeof FullScale === 'undefined') {\n    node.warn(\"FullScale değeri context'ten alınamadı!\");\n    return;  \n}\n\nvar rawData = new ArrayBuffer(4);\nvar intView = new Uint16Array(rawData);\nvar fltView = new Float32Array(rawData);\n\nintView[0] = msg.payload[0]; // Düşük byte\nintView[1] = msg.payload[1]; // Yüksek byte\n\nvar GasValue = parseFloat(fltView[0].toFixed(2));\nnode.warn(\"Gaz Değeri: \" + GasValue);\n\nvar msgVol = { payload: GasValue };\nvar msgLEL = { payload: GasValue };\nvar msgPPM = { payload: GasValue };\n\nswitch (selectedUnit) {\n    case '%VOL':\n        msgVol.ui_chart = {\n            ymin: 0,\n            ymax: FullScale  \n        };\n        msgVol.ui_control = {\n            min: 0,\n            max: FullScale \n        };\n    \n        node.warn(\"Vol içinde FullScale: \" + FullScale);\n        node.warn(\"Gauge ve grafik için %VOL seçildi.\");\n        msgPPM.payload = 0;\n        msgLEL.payload = 0;\n        node.send([msgVol, null, null]);\n        break;\n\n    case '%LEL':\n        msgLEL.ui_chart = {\n            ymin: 0,\n            ymax: FullScale  \n        };\n        msgLEL.ui_control = {\n            min: 0,\n            max: FullScale\n        };\n        node.warn(\"LEL içinde FullScale: \" + FullScale);\n        node.warn(\"Gauge ve grafik için %LEL seçildi.\");\n        msgVol.payload = 0;\n        msgPPM.payload = 0;\n        node.send([null, msgLEL, null]);\n        break;\n\n    case 'ppm':\n        msgPPM.ui_chart = {\n            ymin: 0,\n            ymax: FullScale  \n        };\n        msgPPM.ui_control = {\n            min: 0,\n            max: FullScale\n        };\n        node.warn(\"PPM içinde FullScale: \" + FullScale);\n        node.warn(\"Gauge ve grafik için ppm seçildi.\");\n        msgVol.payload = 0;\n        msgLEL.payload = 0;\n        node.send([null, null, msgPPM]);\n        break;\n\n    default:\n        msgVol.ui_chart = {\n            ymin: 0,\n            ymax: FullScale  \n        };\n        msgVol.ui_control = {\n            min: 0,\n            max: FullScale\n        };\n        node.warn(\"Varsayılan birim: %VOL kullanılıyor.\");\n        msgLEL.payload = 0;\n        msgPPM.payload = 0;\n        node.send([msgVol, null, null]);\n        break;\n}\n\n// FullScale değeri mesaja eklenir\nmsg.payload.FullScale = FullScale;\n\nreturn [msgVol, msgLEL, msgPPM];\n",
+        "outputs": 3,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 850,
+        "y": 320,
+        "wires": [
+            [
+                "gaz_degeri",
+                "gaz_seviyesi",
+                "gaz_grafigi"
+            ],
+            [
+                "a1de62d053d306ec",
+                "3a8a07fb6baba584",
+                "e723e5492b6991d8"
+            ],
+            [
+                "e740eaf201cb54bd",
+                "088e364cc9e87aad",
+                "7db854ff536f7b89"
+            ]
+        ]
+    },
+    {
+        "id": "gaz_degeri",
+        "type": "ui_text",
+        "z": "a7af766e5893a2ae",
+        "g": "123a255447dfb5ad",
+        "group": "f76c74bd4e95e2fa",
+        "order": 2,
+        "width": 8,
+        "height": 1,
+        "name": "Vol Değeri",
+        "label": "Vol Değeri",
+        "format": "{{msg.payload}} V",
+        "layout": "row-spread",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": "",
+        "color": "#000000",
+        "x": 1610,
+        "y": 140,
+        "wires": []
+    },
+    {
+        "id": "gaz_seviyesi",
+        "type": "ui_gauge",
+        "z": "a7af766e5893a2ae",
+        "g": "123a255447dfb5ad",
+        "name": "Vol Seviyesi",
+        "group": "f76c74bd4e95e2fa",
+        "order": 4,
+        "width": 8,
+        "height": 4,
+        "gtype": "gage",
+        "title": "",
+        "label": "VOL",
+        "format": "{{value}} V",
+        "min": 0,
+        "max": "4",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "0.5",
+        "seg2": "0.85",
+        "diff": false,
+        "className": "",
+        "x": 1610,
+        "y": 180,
+        "wires": []
+    },
+    {
+        "id": "gaz_grafigi",
+        "type": "ui_chart",
+        "z": "a7af766e5893a2ae",
+        "g": "123a255447dfb5ad",
+        "name": "Vol Grafiği",
+        "group": "f76c74bd4e95e2fa",
+        "order": 3,
+        "width": 8,
+        "height": 5,
+        "label": "Gaz Grafiği",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "No data",
+        "dot": false,
+        "ymin": "0",
+        "ymax": "{{msg.payload.FullScale}}",
+        "removeOlder": "10",
+        "removeOlderPoints": "",
+        "removeOlderUnit": "60",
+        "cutout": "0",
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#63af18",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 1610,
+        "y": 220,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "process_sicaklik",
+        "type": "function",
+        "z": "a7af766e5893a2ae",
+        "g": "9662d192854de326",
+        "name": "Process Sıcaklık",
+        "func": "//var selectedUnit= parseInt(msg.payload);\n\n\nif (msg.hasOwnProperty('topic') && msg.topic == \"Celcius\"||msg.topic ==\"Kelvin\"||msg.topic ==\"Fahrenheit\") {\n    context.set(\"selectedUnit\", msg.payload.TempNameUnit);\n    node.warn(\"Birim seçildi seçilen birim :\"+msg.payload.TempNameUnit);\n  \n\n\n    return;\n}\n\nvar selectedUnit = context.get(\"selectedUnit\");\n\n\nif (typeof selectedUnit === 'undefined') {\n    node.warn(\"Birim seçimi yapılmadı! Varsayılan olarak Celsius kullanılıyor.\");\n    selectedUnit = 1; // Varsayılan olarak Celsius\n}\n\nvar rawData = new ArrayBuffer(4);\nvar intView = new Uint16Array(rawData);\nvar fltView = new Float32Array(rawData);\n\nintView[0] = msg.payload[0]; // Low byte\nintView[1] = msg.payload[1]; // High byte\n\nvar TempValue = parseFloat(fltView[0].toFixed(2));\n\n\n\nvar tempCelsius = TempValue;\nvar resetMessage = { payload: 0 };\n\n\n\nvar msgCelsius = { payload: tempCelsius };\nvar msgFahrenheit = { payload: tempCelsius };\nvar msgKelvin = { payload: tempCelsius };\n\nswitch (selectedUnit) {\n    case 'Kelvin':\n       // TempValue = Math.max(273.15, Math.min(TempValue + 273.15, 373.15)); \n        //node.warn(msgKelvin);\n\n        msgCelsius = { payload: 0 };\n        msgFahrenheit = { payload: 0 };\n        node.send([null, null, msgKelvin]);\n        //node.send([resetMessage, resetMessage, null]);\n\n        break;\n    case 'Celcius':\n    node.warn(msgCelsius);\n       // TempValue = Math.max(0, Math.min(TempValue, 100)); \n        msgFahrenheit = { payload: 0 };\n        msgKelvin = { payload: 0 };\n        node.send([msgCelsius, null, null]);\n        // node.send([null, resetMessage, resetMessage]);\n        break;\n    case 'Fahrenheit':\n        node.warn(msgFahrenheit);\n         //TempValue = Math.max(32, Math.min((TempValue * 9 / 5) + 32, 212)); \n\n        msgCelsius = { payload: 0 };\n        msgKelvin = { payload: 0 };\n        node.send([null, msgFahrenheit, null]);\n       // node.send([resetMessage, null, resetMessage]);\n        break;\n    default:\n        //tempKelvin = Math.max(0, Math.min(TempValue, 100)); \n        msgFahrenheit = { payload: 0 };\n        msgKelvin = { payload: 0 };\n        node.send([msgCelsius, null, null]);\n        break;\n}\n\nreturn [msgCelsius, msgFahrenheit, msgKelvin];\n",
+        "outputs": 3,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 920,
+        "y": 500,
+        "wires": [
+            [
+                "sicaklik_degeri",
+                "sicaklik_grafigi",
+                "a51cafb7e1661d4a"
+            ],
+            [
+                "c131eda49140d4e2",
+                "2cc18a19ff4f2e1a"
+            ],
+            [
+                "7c74aeb67380d01b",
+                "3254285afb9d1b02"
+            ]
+        ]
+    },
+    {
+        "id": "sicaklik_degeri",
+        "type": "ui_text",
+        "z": "a7af766e5893a2ae",
+        "g": "b854438357979c29",
+        "group": "e7c06af60368f145",
+        "order": 2,
+        "width": 8,
+        "height": 1,
+        "name": "Celcius  Değeri",
+        "label": "Celcius Değeri",
+        "format": "{{msg.payload}} ",
+        "layout": "row-spread",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": "",
+        "color": "#000000",
+        "x": 1620,
+        "y": 640,
+        "wires": []
+    },
+    {
+        "id": "sicaklik_grafigi",
+        "type": "ui_chart",
+        "z": "a7af766e5893a2ae",
+        "g": "b854438357979c29",
+        "name": "Celcius Grafiği",
+        "group": "e7c06af60368f145",
+        "order": 3,
+        "width": 8,
+        "height": 5,
+        "label": "Celcius Grafiği",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "step",
+        "nodata": "No data",
+        "dot": false,
+        "ymin": "0",
+        "ymax": "100",
+        "removeOlder": "10",
+        "removeOlderPoints": "",
+        "removeOlderUnit": "60",
+        "cutout": "0",
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#63af18",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#68d553",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 1620,
+        "y": 680,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "a51cafb7e1661d4a",
+        "type": "ui_gauge",
+        "z": "a7af766e5893a2ae",
+        "g": "b854438357979c29",
+        "name": "Celcius Seviyesi",
+        "group": "e7c06af60368f145",
+        "order": 4,
+        "width": 8,
+        "height": 4,
+        "gtype": "gage",
+        "title": "Celcius Seviyesi",
+        "label": "°C",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "100",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 1620,
+        "y": 740,
+        "wires": []
+    },
+    {
+        "id": "1dc31e8caf8bda2a",
+        "type": "function",
+        "z": "a7af766e5893a2ae",
+        "g": "10e7f02c9f29f44b",
+        "name": "function 22",
+        "func": "var fc = 6;\nvar sa = 2;\nvar addresses = 2;\nvar value = 0\nvar buf = Buffer.alloc(2);\nbuf.writeInt16BE(value);\n//buf.writeFloatBE(16001.5);\nvar values = [(buf[0] * 256 + buf[1])]\n\nmsg.payload = { \"value\": values, 'fc': fc, 'unitid': 1, 'address': sa, 'quantity': addresses };\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 710,
+        "y": 1920,
+        "wires": [
+            [
+                "1194ba77a73823d0"
+            ]
+        ]
+    },
+    {
+        "id": "1194ba77a73823d0",
+        "type": "modbus-flex-write",
+        "z": "a7af766e5893a2ae",
+        "g": "10e7f02c9f29f44b",
+        "name": "",
+        "showStatusActivities": false,
+        "showErrors": false,
+        "showWarnings": true,
+        "server": "529d0af5b8fd3aa3",
+        "emptyMsgOnFail": false,
+        "keepMsgProperties": false,
+        "delayOnStart": false,
+        "startDelayTime": "10",
+        "x": 900,
+        "y": 1920,
+        "wires": [
+            [
+                "012209a1c95b1e59"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "012209a1c95b1e59",
+        "type": "debug",
+        "z": "a7af766e5893a2ae",
+        "g": "10e7f02c9f29f44b",
+        "name": "debug 1",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1100,
+        "y": 1920,
+        "wires": []
+    },
+    {
+        "id": "bde6b1950b897706",
+        "type": "ui_button",
+        "z": "a7af766e5893a2ae",
+        "g": "10e7f02c9f29f44b",
+        "name": "",
+        "group": "7a04771aa82ad9c9",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Türkçe",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 510,
+        "y": 1920,
+        "wires": [
+            [
+                "1dc31e8caf8bda2a"
+            ]
+        ]
+    },
+    {
+        "id": "7f7c8e279b41002d",
+        "type": "ui_button",
+        "z": "a7af766e5893a2ae",
+        "g": "10e7f02c9f29f44b",
+        "name": "",
+        "group": "7a04771aa82ad9c9",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "İngilizce",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 500,
+        "y": 1980,
+        "wires": [
+            [
+                "b31dac003d65dabb"
+            ]
+        ]
+    },
+    {
+        "id": "b31dac003d65dabb",
+        "type": "function",
+        "z": "a7af766e5893a2ae",
+        "g": "10e7f02c9f29f44b",
+        "name": "function 25",
+        "func": "var fc = 6;\nvar sa = 2;\nvar addresses = 2;\nvar value = 1\nvar buf = Buffer.alloc(2);\nbuf.writeInt16BE(value);\n//buf.writeFloatBE(16001.5);\nvar values = [(buf[0] * 256 + buf[1])]\n\nmsg.payload = { \"value\": values, 'fc': fc, 'unitid': 1, 'address': sa, 'quantity': addresses };\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 670,
+        "y": 1980,
+        "wires": [
+            [
+                "1d1e15b99dc07daa"
+            ]
+        ]
+    },
+    {
+        "id": "1d1e15b99dc07daa",
+        "type": "modbus-flex-write",
+        "z": "a7af766e5893a2ae",
+        "g": "10e7f02c9f29f44b",
+        "name": "",
+        "showStatusActivities": false,
+        "showErrors": false,
+        "showWarnings": true,
+        "server": "529d0af5b8fd3aa3",
+        "emptyMsgOnFail": false,
+        "keepMsgProperties": false,
+        "delayOnStart": false,
+        "startDelayTime": "10",
+        "x": 890,
+        "y": 1980,
+        "wires": [
+            [
+                "3f4c6a083fd24162"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "3f4c6a083fd24162",
+        "type": "debug",
+        "z": "a7af766e5893a2ae",
+        "g": "10e7f02c9f29f44b",
+        "name": "debug 4",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1100,
+        "y": 1980,
+        "wires": []
+    },
+    {
+        "id": "3c6fbb7676cc0736",
+        "type": "modbus-read",
+        "z": "a7af766e5893a2ae",
+        "g": "eda83afd69541613",
+        "name": "Read Cihaz Bilgileri",
+        "topic": "",
+        "showStatusActivities": false,
+        "logIOActivities": false,
+        "showErrors": false,
+        "showWarnings": true,
+        "unitid": "",
+        "dataType": "HoldingRegister",
+        "adr": "10",
+        "quantity": "8",
+        "rate": "10",
+        "rateUnit": "s",
+        "delayOnStart": false,
+        "startDelayTime": "10",
+        "server": "529d0af5b8fd3aa3",
+        "useIOFile": false,
+        "ioFile": "",
+        "useIOForPayload": false,
+        "emptyMsgOnFail": false,
+        "x": 450,
+        "y": 1380,
+        "wires": [
+            [
+                "0ae58bdc126b3a48"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "0ae58bdc126b3a48",
+        "type": "function",
+        "z": "a7af766e5893a2ae",
+        "g": "eda83afd69541613",
+        "name": "Parse Cihaz Bilgileri",
+        "func": "\nvar serialNumberCode = String.fromCharCode(msg.payload[0]) + String.fromCharCode(msg.payload[1]);\nvar serialNumber = msg.payload[2];\nvar hardwareVersion = msg.payload[3];\nvar softwareVersion = msg.payload[4];\nvar installDay = msg.payload[5];\nvar installMonth = msg.payload[6];\nvar installYear = msg.payload[7];\n\nmsg.payload = {\n    serialNumberCode: serialNumberCode,\n    serialNumber: serialNumber,\n    hardwareVersion: hardwareVersion,\n    softwareVersion: softwareVersion,\n    installDate: installDay + '/' + installMonth + '/' + installYear\n};\n\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 690,
+        "y": 1400,
+        "wires": [
+            [
+                "3bd7b6deb0080d0b"
+            ]
+        ]
+    },
+    {
+        "id": "3bd7b6deb0080d0b",
+        "type": "ui_template",
+        "z": "a7af766e5893a2ae",
+        "g": "eda83afd69541613",
+        "group": "4cff71acd56a636c",
+        "name": "Cihaz Bilgileri",
+        "order": 1,
+        "width": 6,
+        "height": 7,
+        "format": "<div\n    style=\"padding: 20px; color: #333; background-color: transparent; border-radius: 10px; font-family: Arial, sans-serif; border: none; box-shadow: none;\">\n    <h3 style=\"margin-top: 0px; margin-bottom: 20px; color: #2c3e50; font-size: 1.5em; font-weight: normal;\">Cihaz Bilgileri</h3>\n    <p style=\"margin: 15px 0; line-height: 2; font-size: 1.2em; color: #27ae60;\"><strong>Seri Numarası Kodu:</strong> {{msg.payload.serialNumberCode}}</p>\n    <p style=\"margin: 15px 0; line-height: 2; font-size: 1.2em; color: #27ae60;\"><strong>Seri Numarası:</strong> {{msg.payload.serialNumber}}</p>\n    <p style=\"margin: 15px 0; line-height: 2; font-size: 1.2em; color: #27ae60;\"><strong>Donanım Sürümü:</strong> {{msg.payload.hardwareVersion}}</p>\n    <p style=\"margin: 15px 0; line-height: 2; font-size: 1.2em; color: #27ae60;\"><strong>Yazılım Sürümü:</strong> {{msg.payload.softwareVersion}}</p>\n    <p style=\"margin: 15px 0; line-height: 2; font-size: 1.2em; color: #27ae60;\"><strong>Kurulum Tarihi:</strong> {{msg.payload.installDate}}</p>\n</div>\n\n\n\n",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": false,
+        "templateScope": "local",
+        "className": "",
+        "x": 940,
+        "y": 1400,
+        "wires": [
+            [
+                "a8791e5d2ddf648d"
+            ]
+        ]
+    },
+    {
+        "id": "a8791e5d2ddf648d",
+        "type": "debug",
+        "z": "a7af766e5893a2ae",
+        "g": "eda83afd69541613",
+        "name": "debug 5",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1140,
+        "y": 1400,
+        "wires": []
+    },
+    {
+        "id": "67ada25d3fb7a54a",
+        "type": "modbus-read",
+        "z": "a7af766e5893a2ae",
+        "g": "be5ffbf049e65b30",
+        "name": "Read Hata kodları",
+        "topic": "",
+        "showStatusActivities": false,
+        "logIOActivities": false,
+        "showErrors": false,
+        "showWarnings": true,
+        "unitid": "",
+        "dataType": "HoldingRegister",
+        "adr": "30",
+        "quantity": "3",
+        "rate": "8",
+        "rateUnit": "s",
+        "delayOnStart": false,
+        "startDelayTime": "10",
+        "server": "529d0af5b8fd3aa3",
+        "useIOFile": false,
+        "ioFile": "",
+        "useIOForPayload": false,
+        "emptyMsgOnFail": false,
+        "x": 430,
+        "y": 1540,
+        "wires": [
+            [
+                "0fe354f5efbad65c"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "0fe354f5efbad65c",
+        "type": "function",
+        "z": "a7af766e5893a2ae",
+        "g": "be5ffbf049e65b30",
+        "name": "Parse Hata Bilgileri",
+        "func": "var CihazDurumu = msg.payload[0];\nvar WarningCode = msg.payload[1];\nvar ErrowCode = msg.payload[2];\n\n\nvar cihazDurumuText;\nswitch (CihazDurumu) {\n    case 0:\n        cihazDurumuText = \"BAŞLAT\";\n        break;\n    case 1:\n        cihazDurumuText = \"ISINMA\";\n        break;\n    case 2:\n        cihazDurumuText = \"DÖNGÜ\";\n        break;\n    case 3:\n        cihazDurumuText = \"HATA\";\n        break;\n    case 4:\n        cihazDurumuText = \"KALİBRASYON\";\n        break;\n    default:\n        cihazDurumuText = \"BİLİNMEYEN DURUM\";\n}\n\n\nvar errowCodeText;\nif (ErrowCode === 0) {\n    errowCodeText = \"Hata Yok\";\n} else {\n    errowCodeText = \" \" +ErrowCode;\n}\nvar WarningCodeText;\nif(WarningCode==0){\n    WarningCodeText=\"Uyarı Yok\";\n\n\n}else{\n     WarningCodeText=\" \"+WarningCode;\n}\n\nmsg.payload = {\n    CihazDurumu: cihazDurumuText,\n    WarningCode: WarningCodeText,\n    ErrowCode: errowCodeText,\n};\n\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 670,
+        "y": 1540,
+        "wires": [
+            [
+                "80f7f03850f3b389"
+            ]
+        ]
+    },
+    {
+        "id": "80f7f03850f3b389",
+        "type": "ui_template",
+        "z": "a7af766e5893a2ae",
+        "g": "be5ffbf049e65b30",
+        "group": "ab22f259def9afbf",
+        "name": "Cihaz Bilgileri",
+        "order": 1,
+        "width": 7,
+        "height": 7,
+        "format": "<div style=\"padding: 20px; color: #333; background-color: transparent; border-radius: 10px; font-family: Arial, sans-serif; border: none; box-shadow: none;\">\n    <h3 style=\"margin-top: 0px; margin-bottom: 20px; color: #2c3e50; font-size: 1.5em; font-weight: normal;\">Durum</h3>\n    <p style=\"margin: 15px 0; line-height: 2; font-size: 1.2em; color: #27ae60;\"><strong>Cihaz Modu:</strong> {{msg.payload.CihazDurumu}}</p>\n    <p style=\"margin: 15px 0; line-height: 2; font-size: 1.2em; color: #27ae60;\"><strong>Uyarı Kodu:</strong> {{msg.payload.WarningCode}}</p>\n    <p style=\"margin: 15px 0; line-height: 2; font-size: 1.2em; color: #27ae60;\"><strong>Hata Kodu:</strong> {{msg.payload.ErrowCode}}</p>\n</div>\n",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": false,
+        "templateScope": "local",
+        "className": "",
+        "x": 940,
+        "y": 1540,
+        "wires": [
+            [
+                "ae9a50798689eb61"
+            ]
+        ]
+    },
+    {
+        "id": "ae9a50798689eb61",
+        "type": "debug",
+        "z": "a7af766e5893a2ae",
+        "g": "be5ffbf049e65b30",
+        "name": "debug 6",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1160,
+        "y": 1540,
+        "wires": []
+    },
+    {
+        "id": "7b692813900abd45",
+        "type": "modbus-read",
+        "z": "a7af766e5893a2ae",
+        "g": "546f3f2dc93a35af",
+        "name": "Read Hata kodları",
+        "topic": "",
+        "showStatusActivities": false,
+        "logIOActivities": false,
+        "showErrors": false,
+        "showWarnings": true,
+        "unitid": "",
+        "dataType": "HoldingRegister",
+        "adr": "59",
+        "quantity": "2",
+        "rate": "3000",
+        "rateUnit": "ms",
+        "delayOnStart": false,
+        "startDelayTime": "10",
+        "server": "529d0af5b8fd3aa3",
+        "useIOFile": false,
+        "ioFile": "",
+        "useIOForPayload": false,
+        "emptyMsgOnFail": false,
+        "x": 430,
+        "y": 1800,
+        "wires": [
+            [
+                "7b5f174425e43e22"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "7b5f174425e43e22",
+        "type": "function",
+        "z": "a7af766e5893a2ae",
+        "g": "546f3f2dc93a35af",
+        "name": "Parse Hata Bilgileri",
+        "func": "var SensorType = msg.payload[0];\nvar GAS_ADC_VAL = msg.payload[1];\n\n\n\nvar SensorTypeText;\nswitch (SensorType) {\n    case 0:\n        SensorTypeText = \"Kızılötesi\";\n        break;\n    case 1:\n        SensorTypeText = \"Katalitik\";\n        break;\n    case 2:\n        SensorTypeText = \"Elektrokimyasal\";\n        break;\n    case 3:\n        SensorTypeText = \"MSM\";\n        break;\n    case 4:\n        SensorTypeText = \"PID\";\n        break;\n    default:\n        SensorTypeText = \"BİLİNMEYEN Cihaz\";\n}\n\n\n\n\nmsg.payload = {\n    SensorType: SensorTypeText,\n    GAS_ADC_VAL:GAS_ADC_VAL\n};\n\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 670,
+        "y": 1800,
+        "wires": [
+            [
+                "7b5e15c7fd6ecead"
+            ]
+        ]
+    },
+    {
+        "id": "7b5e15c7fd6ecead",
+        "type": "ui_template",
+        "z": "a7af766e5893a2ae",
+        "g": "546f3f2dc93a35af",
+        "group": "02938d319320672a",
+        "name": "Cihaz Bilgileri",
+        "order": 3,
+        "width": 6,
+        "height": 4,
+        "format": "<div style=\"padding: 20px; color: #333; background-color: transparent; border-radius: 10px; font-family: Arial, sans-serif; border: none; box-shadow: none;\">\n\n    <p style=\"margin: 15px 0; line-height: 2; font-size: 1.2em; color: #27ae60;\"><strong>Sensör Tipi:</strong> {{msg.payload.SensorType}}</p>\n    <p style=\"margin: 15px 0; line-height: 2; font-size: 1.2em; color: #27ae60;\"><strong>Gaz Adc Değeri:</strong> {{msg.payload.GAS_ADC_VAL}}</p>\n\n</div>\n",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": false,
+        "templateScope": "local",
+        "className": "",
+        "x": 940,
+        "y": 1800,
+        "wires": [
+            [
+                "55fb79d92a329d82"
+            ]
+        ]
+    },
+    {
+        "id": "55fb79d92a329d82",
+        "type": "debug",
+        "z": "a7af766e5893a2ae",
+        "g": "546f3f2dc93a35af",
+        "name": "debug 13",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1160,
+        "y": 1800,
+        "wires": []
+    },
+    {
+        "id": "c131eda49140d4e2",
+        "type": "ui_gauge",
+        "z": "a7af766e5893a2ae",
+        "g": "b854438357979c29",
+        "name": "",
+        "group": "e7c06af60368f145",
+        "order": 7,
+        "width": 8,
+        "height": 4,
+        "gtype": "gage",
+        "title": "Fahrenait",
+        "label": "°F",
+        "format": "{{msg.payload}}",
+        "min": "32",
+        "max": "212 ",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 1620,
+        "y": 840,
+        "wires": []
+    },
+    {
+        "id": "2cc18a19ff4f2e1a",
+        "type": "ui_chart",
+        "z": "a7af766e5893a2ae",
+        "g": "b854438357979c29",
+        "name": "Fahrenait Grafiği",
+        "group": "e7c06af60368f145",
+        "order": 6,
+        "width": 8,
+        "height": 5,
+        "label": "Fahrenait Grafiği",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "32",
+        "ymax": "212",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#63af18",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#70d05d",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 1630,
+        "y": 900,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "7c74aeb67380d01b",
+        "type": "ui_gauge",
+        "z": "a7af766e5893a2ae",
+        "g": "b854438357979c29",
+        "name": "",
+        "group": "e7c06af60368f145",
+        "order": 10,
+        "width": 8,
+        "height": 4,
+        "gtype": "gage",
+        "title": "Kelvin",
+        "label": "°K",
+        "format": "{{msg.payload}}",
+        "min": "273.15",
+        "max": "373.15",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 1630,
+        "y": 1000,
+        "wires": []
+    },
+    {
+        "id": "3254285afb9d1b02",
+        "type": "ui_chart",
+        "z": "a7af766e5893a2ae",
+        "g": "b854438357979c29",
+        "name": "Kelvin Grafiği",
+        "group": "e7c06af60368f145",
+        "order": 9,
+        "width": 8,
+        "height": 5,
+        "label": "Kelvin Grafiği",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "273.15",
+        "ymax": "373.15",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#63af18",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#59d241",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 1630,
+        "y": 1060,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "50558700a06045d8",
+        "type": "ui_dropdown",
+        "z": "a7af766e5893a2ae",
+        "g": "9662d192854de326",
+        "name": "Sıcaklık Seçim İşlemi",
+        "label": "",
+        "tooltip": "",
+        "place": "Sıcaklık Ölçüm Birimi",
+        "group": "e7c06af60368f145",
+        "order": 1,
+        "width": 16,
+        "height": 1,
+        "passthru": true,
+        "multiple": false,
+        "options": [
+            {
+                "label": "Kelvin",
+                "value": "0",
+                "type": "str"
+            },
+            {
+                "label": "Celcius",
+                "value": "1",
+                "type": "str"
+            },
+            {
+                "label": "Fahrenheit",
+                "value": "2",
+                "type": "str"
+            }
+        ],
+        "payload": "",
+        "topic": "topic",
+        "topicType": "msg",
+        "className": "",
+        "x": 400,
+        "y": 880,
+        "wires": [
+            [
+                "8a62adb053dddc8d"
+            ]
+        ]
+    },
+    {
+        "id": "8a62adb053dddc8d",
+        "type": "function",
+        "z": "a7af766e5893a2ae",
+        "g": "9662d192854de326",
+        "name": "function procces memory temp",
+        "func": "var selectedUnit;\nselectedUnit =parseInt(msg.payload); \nvar registerValue;\nvar addresses = 1;\n\n// Dropdown seçenekleri:\n// 0: Kelvin\n// 1: Celcius\n// 2: Fahrenheit\nswitch(selectedUnit) {\n    case 0:\n        registerValue = 0;  \n        break;\n    case 1:\n        registerValue = 1;\n        break;\n    case 2:\n        registerValue = 2;\n        break;\n    default:\n        registerValue = 0;  \n}\n\nvar buf = Buffer.alloc(2); \nbuf.writeInt16BE(registerValue);\nvar values = [(buf[0] * 256 + buf[1])]  \n\n\nmsg.payload = {\n    \"value\": values,\n    'fc': 6,  \n    'unitid': 1,  \n    'address':58,  \n    'quantity': addresses\n};\n\nmsg.topic = \"temperatureUnit\";\nmsg.temperatureUnit = selectedUnit;\n\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 690,
+        "y": 880,
+        "wires": [
+            [
+                "71036c4d83561778"
+            ]
+        ]
+    },
+    {
+        "id": "71036c4d83561778",
+        "type": "modbus-flex-write",
+        "z": "a7af766e5893a2ae",
+        "g": "9662d192854de326",
+        "name": "",
+        "showStatusActivities": false,
+        "showErrors": false,
+        "showWarnings": true,
+        "server": "529d0af5b8fd3aa3",
+        "emptyMsgOnFail": false,
+        "keepMsgProperties": false,
+        "delayOnStart": false,
+        "startDelayTime": "10",
+        "x": 970,
+        "y": 880,
+        "wires": [
+            [],
+            []
+        ]
+    },
+    {
+        "id": "729b92a79caca9c1",
+        "type": "ui_dropdown",
+        "z": "a7af766e5893a2ae",
+        "g": "d01397c39a7cd80d",
+        "name": "Gaz Ölçüm Birimi",
+        "label": "Gaz Ölçüm Birimi",
+        "tooltip": "",
+        "place": "Gaz Ölçüm Birimi",
+        "group": "f76c74bd4e95e2fa",
+        "order": 1,
+        "width": 16,
+        "height": 1,
+        "passthru": true,
+        "multiple": false,
+        "options": [
+            {
+                "label": "%VOL",
+                "value": "0",
+                "type": "str"
+            },
+            {
+                "label": "%LEL",
+                "value": "1",
+                "type": "str"
+            },
+            {
+                "label": "PPM",
+                "value": "2",
+                "type": "str"
+            }
+        ],
+        "payload": "",
+        "topic": "topic",
+        "topicType": "msg",
+        "className": "",
+        "x": 410,
+        "y": 160,
+        "wires": [
+            [
+                "da3020a2964e558b"
+            ]
+        ]
+    },
+    {
+        "id": "da3020a2964e558b",
+        "type": "function",
+        "z": "a7af766e5893a2ae",
+        "g": "d01397c39a7cd80d",
+        "name": "function procces memory gas",
+        "func": "var selectedUnit;\nselectedUnit =parseInt(msg.payload); \nvar registerValue;\nvar addresses = 1;\nvar GasName=\"\";\n\n// Dropdown seçenekleri:\n// 0: VOL\n// 1: LEL\n// 2: PPM\nswitch(selectedUnit) {\n    case 0:\n        registerValue = 0;  \n        GasName=\"VOL\";\n        break;\n    case 1:\n        registerValue = 1;\n        GasName=\"LEL\"\n        break;\n    case 2:\n        registerValue = 2;\n        GasName=\"PPM\";\n        break;\n    default:\n        registerValue = 0;  \n        GasName=\"VOL\";\n}\n\nvar buf = Buffer.alloc(2); \nbuf.writeInt16BE(registerValue);\nvar values = [(buf[0] * 256 + buf[1])]  \n\n\nmsg.payload = {\n    \"value\": values,\n    'fc': 6,  \n    'unitid': 1,  \n    'address':61,  \n    'quantity': addresses\n};\n\nmsg.topic = \"GasUnit\";\nmsg.Gasunit = selectedUnit;\n\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 680,
+        "y": 160,
+        "wires": [
+            [
+                "094d0cd1b4b485ac"
+            ]
+        ]
+    },
+    {
+        "id": "094d0cd1b4b485ac",
+        "type": "modbus-flex-write",
+        "z": "a7af766e5893a2ae",
+        "g": "d01397c39a7cd80d",
+        "name": "",
+        "showStatusActivities": false,
+        "showErrors": false,
+        "showWarnings": true,
+        "server": "529d0af5b8fd3aa3",
+        "emptyMsgOnFail": false,
+        "keepMsgProperties": false,
+        "delayOnStart": false,
+        "startDelayTime": "10",
+        "x": 970,
+        "y": 160,
+        "wires": [
+            [],
+            []
+        ]
+    },
+    {
+        "id": "3169ef7cae55d6df",
+        "type": "function",
+        "z": "a7af766e5893a2ae",
+        "g": "9662d192854de326",
+        "name": "function assign name temp",
+        "func": "\nmsg.topic = \"TempSelection\";\nvar selectedUnit = parseInt(msg.payload);\n\n\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 700,
+        "y": 1000,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "a1de62d053d306ec",
+        "type": "ui_text",
+        "z": "a7af766e5893a2ae",
+        "g": "123a255447dfb5ad",
+        "group": "f76c74bd4e95e2fa",
+        "order": 5,
+        "width": 8,
+        "height": 1,
+        "name": "LEL Değeri",
+        "label": "LEL Değeri",
+        "format": "{{msg.payload}} LEL",
+        "layout": "row-spread",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": "",
+        "color": "#000000",
+        "x": 1610,
+        "y": 280,
+        "wires": []
+    },
+    {
+        "id": "3a8a07fb6baba584",
+        "type": "ui_gauge",
+        "z": "a7af766e5893a2ae",
+        "g": "123a255447dfb5ad",
+        "name": "LEL Seviyesi",
+        "group": "f76c74bd4e95e2fa",
+        "order": 7,
+        "width": 8,
+        "height": 4,
+        "gtype": "gage",
+        "title": "",
+        "label": "LEL",
+        "format": "{{value}} lel",
+        "min": 0,
+        "max": "100",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "1",
+        "seg2": "3",
+        "diff": false,
+        "className": "",
+        "x": 1610,
+        "y": 320,
+        "wires": []
+    },
+    {
+        "id": "e723e5492b6991d8",
+        "type": "ui_chart",
+        "z": "a7af766e5893a2ae",
+        "g": "123a255447dfb5ad",
+        "name": "LEL Grafiği",
+        "group": "f76c74bd4e95e2fa",
+        "order": 6,
+        "width": 8,
+        "height": 5,
+        "label": "LEL Grafiği",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "No data",
+        "dot": false,
+        "ymin": "0",
+        "ymax": "",
+        "removeOlder": "10",
+        "removeOlderPoints": "",
+        "removeOlderUnit": "60",
+        "cutout": "0",
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#63af18",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 1610,
+        "y": 360,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "e740eaf201cb54bd",
+        "type": "ui_text",
+        "z": "a7af766e5893a2ae",
+        "g": "123a255447dfb5ad",
+        "group": "f76c74bd4e95e2fa",
+        "order": 8,
+        "width": 8,
+        "height": 1,
+        "name": "PPM Değeri",
+        "label": "PPM Değeri",
+        "format": "{{msg.payload}} ppm",
+        "layout": "row-spread",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": "",
+        "color": "#000000",
+        "x": 1610,
+        "y": 440,
+        "wires": []
+    },
+    {
+        "id": "088e364cc9e87aad",
+        "type": "ui_gauge",
+        "z": "a7af766e5893a2ae",
+        "g": "123a255447dfb5ad",
+        "name": "PPM Seviyesi",
+        "group": "f76c74bd4e95e2fa",
+        "order": 10,
+        "width": 8,
+        "height": 4,
+        "gtype": "gage",
+        "title": "",
+        "label": "PPM",
+        "format": "{{value}} ppm",
+        "min": 0,
+        "max": "44000",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "1",
+        "seg2": "3",
+        "diff": false,
+        "className": "",
+        "x": 1620,
+        "y": 480,
+        "wires": []
+    },
+    {
+        "id": "7db854ff536f7b89",
+        "type": "ui_chart",
+        "z": "a7af766e5893a2ae",
+        "g": "123a255447dfb5ad",
+        "name": "PPM Grafiği",
+        "group": "f76c74bd4e95e2fa",
+        "order": 9,
+        "width": 8,
+        "height": 5,
+        "label": "PPM Grafiği",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "No data",
+        "dot": false,
+        "ymin": "0",
+        "ymax": "",
+        "removeOlder": "10",
+        "removeOlderPoints": "",
+        "removeOlderUnit": "60",
+        "cutout": "0",
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#63af18",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 1610,
+        "y": 520,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "9d82e1d9ac559fe7",
+        "type": "ui_text",
+        "z": "a7af766e5893a2ae",
+        "g": "b854438357979c29",
+        "group": "e7c06af60368f145",
+        "order": 5,
+        "width": 8,
+        "height": 1,
+        "name": "Fahrenait Değeri",
+        "label": "Fahrenait Değeri",
+        "format": "{{msg.payload}} ",
+        "layout": "row-spread",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": "",
+        "color": "#000000",
+        "x": 1630,
+        "y": 800,
+        "wires": []
+    },
+    {
+        "id": "816343da0f99eeb1",
+        "type": "ui_text",
+        "z": "a7af766e5893a2ae",
+        "g": "b854438357979c29",
+        "group": "e7c06af60368f145",
+        "order": 8,
+        "width": 8,
+        "height": 1,
+        "name": "KelvinDeğeri",
+        "label": "KelvinDeğeri",
+        "format": "{{msg.payload}} ",
+        "layout": "row-spread",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": "",
+        "color": "#000000",
+        "x": 1630,
+        "y": 960,
+        "wires": []
+    },
+    {
+        "id": "deb7b1634695b0c7",
+        "type": "function",
+        "z": "a7af766e5893a2ae",
+        "g": "9662d192854de326",
+        "name": "function Reset Graph",
+        "func": "var resetGraphMessage = { payload: [] };\n\n\nnode.send([resetGraphMessage, resetGraphMessage, resetGraphMessage]);\n\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 980,
+        "y": 700,
+        "wires": [
+            [
+                "sicaklik_grafigi",
+                "2cc18a19ff4f2e1a",
+                "3254285afb9d1b02",
+                "gaz_grafigi",
+                "e723e5492b6991d8",
+                "7db854ff536f7b89"
+            ]
+        ]
+    },
+    {
+        "id": "1c641e315c062c3b",
+        "type": "ui_button",
+        "z": "a7af766e5893a2ae",
+        "g": "9662d192854de326",
+        "name": "",
+        "group": "02938d319320672a",
+        "order": 4,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Reset Graphs",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 960,
+        "y": 660,
+        "wires": [
+            [
+                "deb7b1634695b0c7"
+            ]
+        ]
+    },
+    {
+        "id": "2b8e039e3bdbfe69",
+        "type": "modbus-flex-write",
+        "z": "a7af766e5893a2ae",
+        "g": "0687124dfa7e70fe",
+        "name": "",
+        "showStatusActivities": false,
+        "showErrors": false,
+        "showWarnings": true,
+        "server": "529d0af5b8fd3aa3",
+        "emptyMsgOnFail": false,
+        "keepMsgProperties": false,
+        "delayOnStart": false,
+        "startDelayTime": "10",
+        "x": 1210,
+        "y": 2180,
+        "wires": [
+            [
+                "81a3ed864e0f3e58"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "81a3ed864e0f3e58",
+        "type": "debug",
+        "z": "a7af766e5893a2ae",
+        "g": "0687124dfa7e70fe",
+        "name": "debug 14",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1440,
+        "y": 2180,
+        "wires": []
+    },
+    {
+        "id": "f14b93722e759685",
+        "type": "modbus-read",
+        "z": "a7af766e5893a2ae",
+        "g": "0687124dfa7e70fe",
+        "name": "Read Alarm_1_Status",
+        "topic": "",
+        "showStatusActivities": false,
+        "logIOActivities": false,
+        "showErrors": false,
+        "showWarnings": true,
+        "unitid": "",
+        "dataType": "HoldingRegister",
+        "adr": "71",
+        "quantity": "1",
+        "rate": "1500",
+        "rateUnit": "ms",
+        "delayOnStart": false,
+        "startDelayTime": "10",
+        "server": "529d0af5b8fd3aa3",
+        "useIOFile": false,
+        "ioFile": "",
+        "useIOForPayload": false,
+        "emptyMsgOnFail": false,
+        "x": 320,
+        "y": 2280,
+        "wires": [
+            [
+                "1e35e70cd43ad2a5"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "1e35e70cd43ad2a5",
+        "type": "function",
+        "z": "a7af766e5893a2ae",
+        "g": "0687124dfa7e70fe",
+        "name": "function 28",
+        "func": "var alarmDurumu = msg.payload;\nvar alarmText;\n\nif (alarmDurumu == false) {\n    alarmText = \"KAPALI\";\n\n} else {\n\n    alarmText = \"AÇIK \";\n}\n\nmsg.payload = {\n    alarmDurumu: alarmText\n};\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 670,
+        "y": 2280,
+        "wires": [
+            [
+                "1385264b23523544"
+            ]
+        ]
+    },
+    {
+        "id": "1385264b23523544",
+        "type": "ui_template",
+        "z": "a7af766e5893a2ae",
+        "g": "0687124dfa7e70fe",
+        "group": "2fa1bd92be1bc870",
+        "name": "Read_Alarm_1_Status",
+        "order": 1,
+        "width": 8,
+        "height": 2,
+        "format": "<div style=\"padding: 10px; color: #333; background-color: transparent; border-radius: 10px; font-family: Arial, sans-serif; border: none; box-shadow: none;\">\n\n    \n\n    <p style=\"margin: 15px 0; line-height: 2; font-size: 1.2em; color: #27ae60;\"><strong>Alarm 1 Durumu :</strong> {{msg.payload.alarmDurumu}}</p>\n   \n     \n</div>\n",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": false,
+        "templateScope": "local",
+        "className": "",
+        "x": 1000,
+        "y": 2280,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "e101f784be4d2411",
+        "type": "modbus-read",
+        "z": "a7af766e5893a2ae",
+        "g": "0687124dfa7e70fe",
+        "name": "Read Alarm_1_Status",
+        "topic": "",
+        "showStatusActivities": false,
+        "logIOActivities": false,
+        "showErrors": false,
+        "showWarnings": true,
+        "unitid": "",
+        "dataType": "HoldingRegister",
+        "adr": "71",
+        "quantity": "1",
+        "rate": "1500",
+        "rateUnit": "ms",
+        "delayOnStart": false,
+        "startDelayTime": "10",
+        "server": "529d0af5b8fd3aa3",
+        "useIOFile": false,
+        "ioFile": "",
+        "useIOForPayload": false,
+        "emptyMsgOnFail": false,
+        "x": 320,
+        "y": 2160,
+        "wires": [
+            [
+                "2e8a5683ba5dcc4a"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "2e8a5683ba5dcc4a",
+        "type": "function",
+        "z": "a7af766e5893a2ae",
+        "g": "0687124dfa7e70fe",
+        "name": "function read",
+        "func": "var alarmStatus = msg.payload; \nvar status; \n\n\nif (alarmStatus == 1) {\n    node.warn(\"Alarm 1 Aktif\");\n    status = 1;\n} else {\n    node.warn(\"Alarm 1 Kapalı\");\n    status = 0; \n}\n\nmsg.payload = status;\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 570,
+        "y": 2180,
+        "wires": [
+            [
+                "728e2f13e55c74ea"
+            ]
+        ]
+    },
+    {
+        "id": "c603f343d0ed9e9e",
+        "type": "function",
+        "z": "a7af766e5893a2ae",
+        "g": "0687124dfa7e70fe",
+        "name": "function on",
+        "func": "if (msg.payload == 1) { \n    var fc = 6;\n    var sa = 70;\n    var addresses = 1;\n    var value = 1; \n\n    var buf = Buffer.alloc(2);\n    buf.writeInt16BE(value);\n\n    var values = [(buf[0] * 256 + buf[1])];\n\n    msg.payload = {\n        \"value\": values,\n        'fc': fc,\n        'unitid': 1,\n        'address': sa,\n        'quantity': addresses\n    };\n\n    return msg;\n} else {\n    node.warn(  msg.payload);\n    return null; \n}\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 990,
+        "y": 2180,
+        "wires": [
+            [
+                "2b8e039e3bdbfe69"
+            ]
+        ]
+    },
+    {
+        "id": "728e2f13e55c74ea",
+        "type": "ui_button",
+        "z": "a7af766e5893a2ae",
+        "g": "0687124dfa7e70fe",
+        "name": "",
+        "group": "2fa1bd92be1bc870",
+        "order": 7,
+        "width": 8,
+        "height": 1,
+        "passthru": false,
+        "label": "Cancel Alarm",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "1",
+        "payloadType": "num",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 770,
+        "y": 2180,
+        "wires": [
+            [
+                "c603f343d0ed9e9e"
+            ]
+        ]
+    },
+    {
+        "id": "5d5451b947ba2706",
+        "type": "ui_form",
+        "z": "a7af766e5893a2ae",
+        "g": "0687124dfa7e70fe",
+        "name": "",
+        "label": "Alarm 1 Seviyesi Gir",
+        "group": "c7cd1f70ebd4ab1e",
+        "order": 1,
+        "width": 7,
+        "height": 1,
+        "options": [
+            {
+                "label": "(0-50) arası değer girin",
+                "value": "value",
+                "type": "number",
+                "required": true,
+                "rows": null
+            }
+        ],
+        "formValue": {
+            "value": ""
+        },
+        "payload": "",
+        "submit": "değiştir",
+        "cancel": "iptal",
+        "topic": "topic",
+        "topicType": "msg",
+        "splitLayout": "",
+        "className": "",
+        "x": 320,
+        "y": 2380,
+        "wires": [
+            [
+                "3941de67cd902a60"
+            ]
+        ]
+    },
+    {
+        "id": "3941de67cd902a60",
+        "type": "function",
+        "z": "a7af766e5893a2ae",
+        "g": "0687124dfa7e70fe",
+        "name": "function Alarm1 Level",
+        "func": "\n\nvar fc = 6;\nvar sa = 72;\nvar addresses = 2;\nvar value = msg.payload.value;\nvar buf = Buffer.alloc(2);\nbuf.writeInt16BE(value);\n\nvar values = [(buf[0] * 256 + buf[1])]\n\nmsg.payload = { \"value\": values, 'fc': fc, 'unitid': 1, 'address': sa, 'quantity': addresses };\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 540,
+        "y": 2380,
+        "wires": [
+            [
+                "085757d8c41fd616"
+            ]
+        ]
+    },
+    {
+        "id": "085757d8c41fd616",
+        "type": "modbus-flex-write",
+        "z": "a7af766e5893a2ae",
+        "g": "0687124dfa7e70fe",
+        "name": "Alarm1 Level Change",
+        "showStatusActivities": false,
+        "showErrors": false,
+        "showWarnings": true,
+        "server": "529d0af5b8fd3aa3",
+        "emptyMsgOnFail": false,
+        "keepMsgProperties": false,
+        "delayOnStart": false,
+        "startDelayTime": "10",
+        "x": 840,
+        "y": 2380,
+        "wires": [
+            [
+                "94b47c9c5c6937da"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "94b47c9c5c6937da",
+        "type": "debug",
+        "z": "a7af766e5893a2ae",
+        "g": "0687124dfa7e70fe",
+        "name": "debug 15",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1060,
+        "y": 2380,
+        "wires": []
+    },
+    {
+        "id": "6d7ea59e368f67d1",
+        "type": "ui_form",
+        "z": "a7af766e5893a2ae",
+        "g": "0687124dfa7e70fe",
+        "name": "",
+        "label": "Alarm 1  Kapatma Süresi Gir( dk)",
+        "group": "c7cd1f70ebd4ab1e",
+        "order": 5,
+        "width": 7,
+        "height": 1,
+        "options": [
+            {
+                "label": "(-1,120) Arası değer girin",
+                "value": "value",
+                "type": "number",
+                "required": true,
+                "rows": null
+            }
+        ],
+        "formValue": {
+            "value": ""
+        },
+        "payload": "",
+        "submit": "değiştir",
+        "cancel": "iptal",
+        "topic": "topic",
+        "topicType": "msg",
+        "splitLayout": "",
+        "className": "",
+        "x": 330,
+        "y": 2460,
+        "wires": [
+            [
+                "edd3a453d27e9748"
+            ]
+        ]
+    },
+    {
+        "id": "edd3a453d27e9748",
+        "type": "function",
+        "z": "a7af766e5893a2ae",
+        "g": "0687124dfa7e70fe",
+        "name": "function Alarm1 Level",
+        "func": "\n\nvar fc = 6;\nvar sa = 73;\nvar addresses = 2;\nvar value = msg.payload.value;\nvar buf = Buffer.alloc(2);\nbuf.writeInt16BE(value);\n\nvar values = [(buf[0] * 256 + buf[1])]\n\nmsg.payload = { \"value\": values, 'fc': fc, 'unitid': 1, 'address': sa, 'quantity': addresses };\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 580,
+        "y": 2460,
+        "wires": [
+            [
+                "4cbce76f345dac76"
+            ]
+        ]
+    },
+    {
+        "id": "4cbce76f345dac76",
+        "type": "modbus-flex-write",
+        "z": "a7af766e5893a2ae",
+        "g": "0687124dfa7e70fe",
+        "name": "Alarm1 Gas closing minutes",
+        "showStatusActivities": false,
+        "showErrors": false,
+        "showWarnings": true,
+        "server": "529d0af5b8fd3aa3",
+        "emptyMsgOnFail": false,
+        "keepMsgProperties": false,
+        "delayOnStart": false,
+        "startDelayTime": "10",
+        "x": 860,
+        "y": 2460,
+        "wires": [
+            [
+                "bb13f23c0f9282c0"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "bb13f23c0f9282c0",
+        "type": "debug",
+        "z": "a7af766e5893a2ae",
+        "g": "0687124dfa7e70fe",
+        "name": "debug 16",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1080,
+        "y": 2460,
+        "wires": []
+    },
+    {
+        "id": "a730bd9191931cf4",
+        "type": "ui_dropdown",
+        "z": "a7af766e5893a2ae",
+        "g": "0687124dfa7e70fe",
+        "name": "",
+        "label": "Alarm 1 Yönü",
+        "tooltip": "",
+        "place": "Select option",
+        "group": "c7cd1f70ebd4ab1e",
+        "order": 3,
+        "width": 7,
+        "height": 1,
+        "passthru": true,
+        "multiple": false,
+        "options": [
+            {
+                "label": "Yukarı",
+                "value": 0,
+                "type": "num"
+            },
+            {
+                "label": "Aşağı",
+                "value": 1,
+                "type": "num"
+            }
+        ],
+        "payload": "",
+        "topic": "topic",
+        "topicType": "msg",
+        "className": "",
+        "x": 280,
+        "y": 2520,
+        "wires": [
+            [
+                "acda7a0711e7de13"
+            ]
+        ]
+    },
+    {
+        "id": "acda7a0711e7de13",
+        "type": "function",
+        "z": "a7af766e5893a2ae",
+        "g": "0687124dfa7e70fe",
+        "name": "function Alarm1 Yönü",
+        "func": "var alarmYonu=msg.payload;\nvar registerValue;\nvar alarmYonuText;\nvar addresses=2;\n\nswitch(alarmYonu){\n    case 0:\n     \n  \n    registerValue=0;\n     node.warn(\"Alarm 1 Yönü Yukarı Seçildi\");\n    break;\n    case 1:\n\n    registerValue=1;\n     node.warn(\"Alarm 1 Yönü Aşağı Seçildi\");\n    break;\n    \n}\nvar buf = Buffer.alloc(2); \nbuf.writeInt16BE(registerValue);\nvar values = [(buf[0] * 256 + buf[1])]  \n\n\nmsg.payload = {\n    \"value\": values,\n    'fc': 6,  \n    'unitid': 1,  \n    'address':74,  \n    'quantity': addresses\n};\n\nmsg.topic=\"Alarm1 Direction\"\n\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 600,
+        "y": 2520,
+        "wires": [
+            [
+                "11a0b53741b4fe38"
+            ]
+        ]
+    },
+    {
+        "id": "11a0b53741b4fe38",
+        "type": "modbus-flex-write",
+        "z": "a7af766e5893a2ae",
+        "g": "0687124dfa7e70fe",
+        "name": "Alarm1  Gas Direction",
+        "showStatusActivities": false,
+        "showErrors": false,
+        "showWarnings": true,
+        "server": "529d0af5b8fd3aa3",
+        "emptyMsgOnFail": false,
+        "keepMsgProperties": false,
+        "delayOnStart": false,
+        "startDelayTime": "10",
+        "x": 860,
+        "y": 2520,
+        "wires": [
+            [
+                "7764a42022faf4e6"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "7764a42022faf4e6",
+        "type": "debug",
+        "z": "a7af766e5893a2ae",
+        "name": "debug 17",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1074.765625,
+        "y": 2523.76171875,
+        "wires": []
+    },
+    {
+        "id": "04b722eb74195eaf",
+        "type": "modbus-read",
+        "z": "a7af766e5893a2ae",
+        "g": "30e524baaa4e2c10",
+        "name": "Read Alarm_2_Status",
+        "topic": "",
+        "showStatusActivities": false,
+        "logIOActivities": false,
+        "showErrors": false,
+        "showWarnings": true,
+        "unitid": "",
+        "dataType": "HoldingRegister",
+        "adr": "75",
+        "quantity": "1",
+        "rate": "1600",
+        "rateUnit": "ms",
+        "delayOnStart": false,
+        "startDelayTime": "10",
+        "server": "529d0af5b8fd3aa3",
+        "useIOFile": false,
+        "ioFile": "",
+        "useIOForPayload": false,
+        "emptyMsgOnFail": false,
+        "x": 420,
+        "y": 2660,
+        "wires": [
+            [
+                "2216d8138d0cf6f1"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "2216d8138d0cf6f1",
+        "type": "function",
+        "z": "a7af766e5893a2ae",
+        "g": "30e524baaa4e2c10",
+        "name": "function 29",
+        "func": "var alarmDurumu = msg.payload;\nvar alarmText;\n\nif (alarmDurumu == false) {\n    alarmText = \"KAPALI\";\n\n} else {\n\n    alarmText = \"AÇIK \";\n}\n\nmsg.payload = {\n    alarmDurumu: alarmText\n};\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 770,
+        "y": 2660,
+        "wires": [
+            [
+                "a15a814fe4289546"
+            ]
+        ]
+    },
+    {
+        "id": "a15a814fe4289546",
+        "type": "ui_template",
+        "z": "a7af766e5893a2ae",
+        "g": "30e524baaa4e2c10",
+        "group": "2fa1bd92be1bc870",
+        "name": "Read_Alarm2_Status",
+        "order": 3,
+        "width": 8,
+        "height": 2,
+        "format": "<div style=\"padding: 10px; color: #333; background-color: transparent; border-radius: 10px; font-family: Arial, sans-serif; border: none; box-shadow: none;\">\n\n    \n\n    <p style=\"margin: 15px 0; line-height: 2; font-size: 1.2em; color: #27ae60;\"><strong>Alarm 2 Durumu :</strong> {{msg.payload.alarmDurumu}}</p>\n   \n     \n</div>\n",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": false,
+        "templateScope": "local",
+        "className": "",
+        "x": 1100,
+        "y": 2660,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "d334ffddea3d1dd4",
+        "type": "ui_form",
+        "z": "a7af766e5893a2ae",
+        "g": "30e524baaa4e2c10",
+        "name": "",
+        "label": "Alarm 2 Seviyesi Gir",
+        "group": "c7cd1f70ebd4ab1e",
+        "order": 7,
+        "width": 0,
+        "height": 0,
+        "options": [
+            {
+                "label": "(0-50) arası değer girin",
+                "value": "value",
+                "type": "number",
+                "required": true,
+                "rows": null
+            }
+        ],
+        "formValue": {
+            "value": ""
+        },
+        "payload": "",
+        "submit": "değiştir",
+        "cancel": "iptal",
+        "topic": "topic",
+        "topicType": "msg",
+        "splitLayout": "",
+        "className": "",
+        "x": 400,
+        "y": 2760,
+        "wires": [
+            [
+                "6e384fbd15027a1e"
+            ]
+        ]
+    },
+    {
+        "id": "6e384fbd15027a1e",
+        "type": "function",
+        "z": "a7af766e5893a2ae",
+        "g": "30e524baaa4e2c10",
+        "name": "function Alarm2 Level",
+        "func": "\n\nvar fc = 6;\nvar sa = 76;\nvar addresses = 2;\nvar value = msg.payload.value;\nvar buf = Buffer.alloc(2);\nbuf.writeInt16BE(value);\n\nvar values = [(buf[0] * 256 + buf[1])]\n\nmsg.payload = { \"value\": values, 'fc': fc, 'unitid': 1, 'address': sa, 'quantity': addresses };\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 640,
+        "y": 2760,
+        "wires": [
+            [
+                "d485eaf019006bdf"
+            ]
+        ]
+    },
+    {
+        "id": "d485eaf019006bdf",
+        "type": "modbus-flex-write",
+        "z": "a7af766e5893a2ae",
+        "g": "30e524baaa4e2c10",
+        "name": "Alarm1 Level Change",
+        "showStatusActivities": false,
+        "showErrors": false,
+        "showWarnings": true,
+        "server": "529d0af5b8fd3aa3",
+        "emptyMsgOnFail": false,
+        "keepMsgProperties": false,
+        "delayOnStart": false,
+        "startDelayTime": "10",
+        "x": 940,
+        "y": 2760,
+        "wires": [
+            [
+                "396d30ee654dd5ea"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "396d30ee654dd5ea",
+        "type": "debug",
+        "z": "a7af766e5893a2ae",
+        "g": "30e524baaa4e2c10",
+        "name": "debug 19",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1160,
+        "y": 2760,
+        "wires": []
+    },
+    {
+        "id": "3ddaed358a8b61d1",
+        "type": "ui_dropdown",
+        "z": "a7af766e5893a2ae",
+        "g": "30e524baaa4e2c10",
+        "name": "",
+        "label": "Alarm 2 Yönü",
+        "tooltip": "",
+        "place": "Select option",
+        "group": "c7cd1f70ebd4ab1e",
+        "order": 9,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "multiple": false,
+        "options": [
+            {
+                "label": "Yukarı",
+                "value": 0,
+                "type": "num"
+            },
+            {
+                "label": "Aşağı",
+                "value": 1,
+                "type": "num"
+            }
+        ],
+        "payload": "",
+        "topic": "topic",
+        "topicType": "msg",
+        "className": "",
+        "x": 380,
+        "y": 2900,
+        "wires": [
+            [
+                "6cebaba3d1db9d69"
+            ]
+        ]
+    },
+    {
+        "id": "6cebaba3d1db9d69",
+        "type": "function",
+        "z": "a7af766e5893a2ae",
+        "g": "30e524baaa4e2c10",
+        "name": "function Alarm2 Yönü",
+        "func": "var alarmYonu=msg.payload;\nvar registerValue;\nvar alarmYonuText;\nvar addresses=2;\n\nswitch(alarmYonu){\n    case 0:\n     \n  \n    registerValue=0;\n     node.warn(\"Alarm 2 Yönü Yukarı Seçildi\");\n    break;\n    case 1:\n\n    registerValue=1;\n     node.warn(\"Alarm 2 Yönü Aşağı Seçildi\");\n    break;\n    \n}\nvar buf = Buffer.alloc(2); \nbuf.writeInt16BE(registerValue);\nvar values = [(buf[0] * 256 + buf[1])]  \n\n\nmsg.payload = {\n    \"value\": values,\n    'fc': 6,  \n    'unitid': 1,  \n    'address': 77,  \n    'quantity': addresses\n};\n\nmsg.topic=\"Alarm2 Direction\"\n\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 700,
+        "y": 2900,
+        "wires": [
+            [
+                "e87f7f61fb215190"
+            ]
+        ]
+    },
+    {
+        "id": "e87f7f61fb215190",
+        "type": "modbus-flex-write",
+        "z": "a7af766e5893a2ae",
+        "g": "30e524baaa4e2c10",
+        "name": "Alarm1  Gas Direction",
+        "showStatusActivities": false,
+        "showErrors": false,
+        "showWarnings": true,
+        "server": "529d0af5b8fd3aa3",
+        "emptyMsgOnFail": false,
+        "keepMsgProperties": false,
+        "delayOnStart": false,
+        "startDelayTime": "10",
+        "x": 960,
+        "y": 2900,
+        "wires": [
+            [],
+            []
+        ]
+    },
+    {
+        "id": "8f0a06a759027548",
+        "type": "modbus-read",
+        "z": "a7af766e5893a2ae",
+        "g": "30e524baaa4e2c10",
+        "name": "Read FAULT_RELAY_ STATUS",
+        "topic": "",
+        "showStatusActivities": false,
+        "logIOActivities": false,
+        "showErrors": false,
+        "showWarnings": true,
+        "unitid": "",
+        "dataType": "HoldingRegister",
+        "adr": "78",
+        "quantity": "1",
+        "rate": "1600",
+        "rateUnit": "ms",
+        "delayOnStart": false,
+        "startDelayTime": "10",
+        "server": "529d0af5b8fd3aa3",
+        "useIOFile": false,
+        "ioFile": "",
+        "useIOForPayload": false,
+        "emptyMsgOnFail": false,
+        "x": 470,
+        "y": 2980,
+        "wires": [
+            [
+                "a54d9d314a3d382f"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "a54d9d314a3d382f",
+        "type": "function",
+        "z": "a7af766e5893a2ae",
+        "g": "30e524baaa4e2c10",
+        "name": "function Arıza",
+        "func": "var alarmDurumu = msg.payload;\nvar alarmText;\n\nif (alarmDurumu == false) {\n    alarmText = \"KAPALI\";\n\n} else {\n\n    alarmText = \"AÇIK \";\n}\n\nmsg.payload = {\n    alarmDurumu: alarmText\n};\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 760,
+        "y": 2980,
+        "wires": [
+            [
+                "8a227d79fa4bd215"
+            ]
+        ]
+    },
+    {
+        "id": "8a227d79fa4bd215",
+        "type": "ui_template",
+        "z": "a7af766e5893a2ae",
+        "g": "30e524baaa4e2c10",
+        "group": "2fa1bd92be1bc870",
+        "name": "Read_Alarm_2_Relay",
+        "order": 5,
+        "width": 8,
+        "height": 2,
+        "format": "<div style=\"padding: 10px; color: #333; background-color: transparent; border-radius: 10px; font-family: Arial, sans-serif; border: none; box-shadow: none;\">\n\n    \n\n    <p style=\"margin: 15px 0; line-height: 2; font-size: 1.2em; color: #27ae60;\"><strong>Arıza Rolesi Durumu :</strong> {{msg.payload.alarmDurumu}}</p>\n   \n     \n</div>\n",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": false,
+        "templateScope": "local",
+        "className": "",
+        "x": 1040,
+        "y": 2980,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "b4c71604edb74db2",
+        "type": "modbus-read",
+        "z": "a7af766e5893a2ae",
+        "g": "cbbc73b08118fd6c",
+        "name": "Read MA_VALUE_4mA",
+        "topic": "",
+        "showStatusActivities": false,
+        "logIOActivities": false,
+        "showErrors": false,
+        "showWarnings": true,
+        "unitid": "",
+        "dataType": "HoldingRegister",
+        "adr": "79",
+        "quantity": "1",
+        "rate": "3000",
+        "rateUnit": "ms",
+        "delayOnStart": false,
+        "startDelayTime": "10",
+        "server": "529d0af5b8fd3aa3",
+        "useIOFile": false,
+        "ioFile": "",
+        "useIOForPayload": false,
+        "emptyMsgOnFail": false,
+        "x": 480,
+        "y": 3200,
+        "wires": [
+            [
+                "155204fc1f911467"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "155204fc1f911467",
+        "type": "function",
+        "z": "a7af766e5893a2ae",
+        "g": "cbbc73b08118fd6c",
+        "name": "function MA_VALUE_4mA",
+        "func": "var alarmDurumu = parseInt (msg.payload);\n\n\n\nmsg.payload = {\n    alarmDurumu: alarmDurumu\n};\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 810,
+        "y": 3200,
+        "wires": [
+            [
+                "8a114d01e40ad334"
+            ]
+        ]
+    },
+    {
+        "id": "8a114d01e40ad334",
+        "type": "ui_template",
+        "z": "a7af766e5893a2ae",
+        "g": "cbbc73b08118fd6c",
+        "group": "fb9595f41a40afd2",
+        "name": "Read MA_VALUE_4mA",
+        "order": 2,
+        "width": 8,
+        "height": 2,
+        "format": "<div style=\"padding: 10px; color: #333; background-color: transparent; border-radius: 10px; font-family: Arial, sans-serif; border: none; box-shadow: none;\">\n\n    \n\n    <p style=\"margin: 15px 0; line-height: 2; font-size: 1.2em; color: #27ae60;\"><strong>4mA kalibrasyon\n    değeri :</strong> {{msg.payload.alarmDurumu}}</p>\n   \n     \n</div>\n",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": false,
+        "templateScope": "local",
+        "className": "",
+        "x": 1170,
+        "y": 3200,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "c6280db1fe3221f9",
+        "type": "ui_form",
+        "z": "a7af766e5893a2ae",
+        "g": "cbbc73b08118fd6c",
+        "name": "",
+        "label": "4mA Kalibrasyon Değerini Değiştirme",
+        "group": "fb9595f41a40afd2",
+        "order": 1,
+        "width": 8,
+        "height": 1,
+        "options": [
+            {
+                "label": "0-4095 arası değer girin",
+                "value": "value",
+                "type": "number",
+                "required": true,
+                "rows": null
+            }
+        ],
+        "formValue": {
+            "value": ""
+        },
+        "payload": "",
+        "submit": "değiştir",
+        "cancel": "iptal",
+        "topic": "topic",
+        "topicType": "msg",
+        "splitLayout": "",
+        "className": "",
+        "x": 470,
+        "y": 3280,
+        "wires": [
+            [
+                "54a450db426f49b3"
+            ]
+        ]
+    },
+    {
+        "id": "54a450db426f49b3",
+        "type": "function",
+        "z": "a7af766e5893a2ae",
+        "g": "cbbc73b08118fd6c",
+        "name": "function MA_VALUE_4mA_Change",
+        "func": "\n\nvar fc = 6;\nvar sa = 79;\nvar addresses = 2;\nvar value = msg.payload.value;\nvar buf = Buffer.alloc(2);\nbuf.writeInt16BE(value);\n\nvar values = [(buf[0] * 256 + buf[1])]\n\nmsg.payload = { \"value\": values, 'fc': fc, 'unitid': 1, 'address': sa, 'quantity': addresses };\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 800,
+        "y": 3280,
+        "wires": [
+            [
+                "45912986635e2f06"
+            ]
+        ]
+    },
+    {
+        "id": "45912986635e2f06",
+        "type": "modbus-flex-write",
+        "z": "a7af766e5893a2ae",
+        "g": "cbbc73b08118fd6c",
+        "name": " MA_VALUE_4mA_Change",
+        "showStatusActivities": false,
+        "showErrors": false,
+        "showWarnings": true,
+        "server": "529d0af5b8fd3aa3",
+        "emptyMsgOnFail": false,
+        "keepMsgProperties": false,
+        "delayOnStart": false,
+        "startDelayTime": "",
+        "x": 1080,
+        "y": 3280,
+        "wires": [
+            [
+                "dd10354078cf1e18"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "dd10354078cf1e18",
+        "type": "debug",
+        "z": "a7af766e5893a2ae",
+        "g": "cbbc73b08118fd6c",
+        "name": "debug 20",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1300,
+        "y": 3280,
+        "wires": []
+    },
+    {
+        "id": "c4a84de246b4c3ab",
+        "type": "modbus-read",
+        "z": "a7af766e5893a2ae",
+        "g": "cbbc73b08118fd6c",
+        "name": "Read MA_VALUE_20mA",
+        "topic": "",
+        "showStatusActivities": false,
+        "logIOActivities": false,
+        "showErrors": false,
+        "showWarnings": true,
+        "unitid": "",
+        "dataType": "HoldingRegister",
+        "adr": "80",
+        "quantity": "1",
+        "rate": "3000",
+        "rateUnit": "ms",
+        "delayOnStart": false,
+        "startDelayTime": "10",
+        "server": "529d0af5b8fd3aa3",
+        "useIOFile": false,
+        "ioFile": "",
+        "useIOForPayload": false,
+        "emptyMsgOnFail": false,
+        "x": 490,
+        "y": 3400,
+        "wires": [
+            [
+                "b7cf479e649f1897"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "b7cf479e649f1897",
+        "type": "function",
+        "z": "a7af766e5893a2ae",
+        "g": "cbbc73b08118fd6c",
+        "name": "function MA_VALUE_20mA",
+        "func": "var alarmDurumu = parseInt (msg.payload);\n\n\n\nmsg.payload = {\n    alarmDurumu: alarmDurumu\n};\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 820,
+        "y": 3400,
+        "wires": [
+            [
+                "b68c36b746e9a2ee"
+            ]
+        ]
+    },
+    {
+        "id": "b68c36b746e9a2ee",
+        "type": "ui_template",
+        "z": "a7af766e5893a2ae",
+        "g": "cbbc73b08118fd6c",
+        "group": "fb9595f41a40afd2",
+        "name": "Read MA_VALUE_20mA",
+        "order": 4,
+        "width": 8,
+        "height": 2,
+        "format": "<div style=\"padding: 10px; color: #333; background-color: transparent; border-radius: 10px; font-family: Arial, sans-serif; border: none; box-shadow: none;\">\n\n    \n\n    <p style=\"margin: 15px 0; line-height: 2; font-size: 1.2em; color: #27ae60;\"><strong>20mA kalibrasyon\n    değeri :</strong> {{msg.payload.alarmDurumu}}</p>\n   \n     \n</div>\n",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": false,
+        "templateScope": "local",
+        "className": "",
+        "x": 1170,
+        "y": 3400,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "92abb6c0880a0872",
+        "type": "ui_form",
+        "z": "a7af766e5893a2ae",
+        "g": "cbbc73b08118fd6c",
+        "name": "",
+        "label": "20mA Kalibrasyon Değerini Değiştirme",
+        "group": "fb9595f41a40afd2",
+        "order": 3,
+        "width": 8,
+        "height": 1,
+        "options": [
+            {
+                "label": "0-4095 arası değer girin",
+                "value": "value",
+                "type": "number",
+                "required": true,
+                "rows": null
+            }
+        ],
+        "formValue": {
+            "value": ""
+        },
+        "payload": "",
+        "submit": "değiştir",
+        "cancel": "iptal",
+        "topic": "topic",
+        "topicType": "msg",
+        "splitLayout": "",
+        "className": "",
+        "x": 470,
+        "y": 3480,
+        "wires": [
+            [
+                "018d2dd75cdaa888"
+            ]
+        ]
+    },
+    {
+        "id": "018d2dd75cdaa888",
+        "type": "function",
+        "z": "a7af766e5893a2ae",
+        "g": "cbbc73b08118fd6c",
+        "name": "function MA_VALUE_20mA_Change",
+        "func": "\n\nvar fc = 6;\nvar sa = 80;\nvar addresses = 2;\nvar value = msg.payload.value;\nvar buf = Buffer.alloc(2);\nbuf.writeInt16BE(value);\n\nvar values = [(buf[0] * 256 + buf[1])]\n\nmsg.payload = { \"value\": values, 'fc': fc, 'unitid': 1, 'address': sa, 'quantity': addresses };\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 810,
+        "y": 3480,
+        "wires": [
+            [
+                "4ac61edcb132eade"
+            ]
+        ]
+    },
+    {
+        "id": "4ac61edcb132eade",
+        "type": "modbus-flex-write",
+        "z": "a7af766e5893a2ae",
+        "g": "cbbc73b08118fd6c",
+        "name": "MA_VALUE_20mA_Change",
+        "showStatusActivities": false,
+        "showErrors": false,
+        "showWarnings": true,
+        "server": "529d0af5b8fd3aa3",
+        "emptyMsgOnFail": false,
+        "keepMsgProperties": false,
+        "delayOnStart": false,
+        "startDelayTime": "10",
+        "x": 1120,
+        "y": 3480,
+        "wires": [
+            [
+                "aee7d66f6332da76"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "aee7d66f6332da76",
+        "type": "debug",
+        "z": "a7af766e5893a2ae",
+        "g": "cbbc73b08118fd6c",
+        "name": "debug 21",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1380,
+        "y": 3480,
+        "wires": []
+    },
+    {
+        "id": "664375d139223cc3",
+        "type": "modbus-read",
+        "z": "a7af766e5893a2ae",
+        "g": "49735435522e4a7c",
+        "name": "Read Mod çıkışları",
+        "topic": "",
+        "showStatusActivities": false,
+        "logIOActivities": false,
+        "showErrors": false,
+        "showWarnings": true,
+        "unitid": "",
+        "dataType": "HoldingRegister",
+        "adr": "81",
+        "quantity": "3",
+        "rate": "10",
+        "rateUnit": "s",
+        "delayOnStart": false,
+        "startDelayTime": "10",
+        "server": "529d0af5b8fd3aa3",
+        "useIOFile": false,
+        "ioFile": "",
+        "useIOForPayload": false,
+        "emptyMsgOnFail": false,
+        "x": 470,
+        "y": 3720,
+        "wires": [
+            [
+                "cde9569f7dbf04f4"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "cde9569f7dbf04f4",
+        "type": "function",
+        "z": "a7af766e5893a2ae",
+        "g": "49735435522e4a7c",
+        "name": "Parse Mod çıkışları",
+        "func": "var MA_OUT_WARMUP = msg.payload[0];\nvar MA_OUT_CALIBRATION = msg.payload[1];\nvar MA_OUT_FAULT = msg.payload[2];\n\n\n\n\n\nmsg.payload = {\n    MA_OUT_WARMUP: MA_OUT_WARMUP,\n    MA_OUT_CALIBRATION: MA_OUT_CALIBRATION,\n    MA_OUT_FAULT: MA_OUT_FAULT,\n};\n\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 710,
+        "y": 3720,
+        "wires": [
+            [
+                "043ccb8a4c774686"
+            ]
+        ]
+    },
+    {
+        "id": "043ccb8a4c774686",
+        "type": "ui_template",
+        "z": "a7af766e5893a2ae",
+        "g": "49735435522e4a7c",
+        "group": "800998772e09fb0f",
+        "name": "Mod çıkışları",
+        "order": 1,
+        "width": 8,
+        "height": 5,
+        "format": "<div style=\"padding: 20px; color: #333; background-color: transparent; border-radius: 10px; font-family: Arial, sans-serif; border: none; box-shadow: none;\">\n    <h3 style=\"margin-top: 0px; margin-bottom: 20px; color: #2c3e50; font-size: 1.5em; font-weight: normal;\">Durum</h3>\n    <p style=\"margin: 15px 0; line-height: 2; font-size: 1.2em; color: #27ae60;\"><strong>Isınma modu mA\n    Çıkışı :</strong> {{msg.payload.MA_OUT_WARMUP}}</p>\n    <p style=\"margin: 15px 0; line-height: 2; font-size: 1.2em; color: #27ae60;\"><strong>Kalibrasyon modu\n    mA Çıkışı :</strong> {{msg.payload.MA_OUT_CALIBRATION}}</p>\n    <p style=\"margin: 15px 0; line-height: 2; font-size: 1.2em; color: #27ae60;\"><strong>Arıza modu mA\n    Çıkışı :</strong> {{msg.payload.MA_OUT_FAULT}}</p>\n</div>\n",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": false,
+        "templateScope": "local",
+        "className": "",
+        "x": 970,
+        "y": 3720,
+        "wires": [
+            [
+                "594a6f47c48d7e97"
+            ]
+        ]
+    },
+    {
+        "id": "594a6f47c48d7e97",
+        "type": "debug",
+        "z": "a7af766e5893a2ae",
+        "g": "49735435522e4a7c",
+        "name": "debug 22",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1200,
+        "y": 3720,
+        "wires": []
+    },
+    {
+        "id": "7156a10b090d3573",
+        "type": "ui_form",
+        "z": "a7af766e5893a2ae",
+        "g": "49735435522e4a7c",
+        "name": "",
+        "label": "Isınma modu mA Çıkışı Değerini Değiştirme",
+        "group": "800998772e09fb0f",
+        "order": 2,
+        "width": 8,
+        "height": 1,
+        "options": [
+            {
+                "label": "",
+                "value": "value",
+                "type": "number",
+                "required": true,
+                "rows": null
+            }
+        ],
+        "formValue": {
+            "value": ""
+        },
+        "payload": "",
+        "submit": "değiştir",
+        "cancel": "iptal",
+        "topic": "topic",
+        "topicType": "msg",
+        "splitLayout": "",
+        "className": "",
+        "x": 530,
+        "y": 3840,
+        "wires": [
+            [
+                "46880792a263e07a"
+            ]
+        ]
+    },
+    {
+        "id": "46880792a263e07a",
+        "type": "function",
+        "z": "a7af766e5893a2ae",
+        "g": "49735435522e4a7c",
+        "name": "function MA_OUT_WARMUP_Change",
+        "func": "\n\nvar fc = 6;\nvar sa = 81;\nvar addresses = 2;\nvar value = msg.payload.value;\nvar buf = Buffer.alloc(2);\nbuf.writeInt16BE(value);\n\nvar values = [(buf[0] * 256 + buf[1])]\n\nmsg.payload = { \"value\": values, 'fc': fc, 'unitid': 1, 'address': sa, 'quantity': addresses };\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 890,
+        "y": 3840,
+        "wires": [
+            [
+                "695a16d975057cfa"
+            ]
+        ]
+    },
+    {
+        "id": "695a16d975057cfa",
+        "type": "modbus-flex-write",
+        "z": "a7af766e5893a2ae",
+        "g": "49735435522e4a7c",
+        "name": "MA_OUT_WARMUP_Change",
+        "showStatusActivities": false,
+        "showErrors": false,
+        "showWarnings": true,
+        "server": "529d0af5b8fd3aa3",
+        "emptyMsgOnFail": false,
+        "keepMsgProperties": false,
+        "delayOnStart": false,
+        "startDelayTime": "10",
+        "x": 1210,
+        "y": 3840,
+        "wires": [
+            [
+                "45a8c34fd8fefbaf"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "45a8c34fd8fefbaf",
+        "type": "debug",
+        "z": "a7af766e5893a2ae",
+        "g": "49735435522e4a7c",
+        "name": "debug 23",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1440,
+        "y": 3840,
+        "wires": []
+    },
+    {
+        "id": "15e17a0f0d3e363d",
+        "type": "ui_form",
+        "z": "a7af766e5893a2ae",
+        "g": "49735435522e4a7c",
+        "name": "",
+        "label": "Kalibrasyon modu mA Çıkışı Değerini Değiştirme",
+        "group": "800998772e09fb0f",
+        "order": 3,
+        "width": 8,
+        "height": 1,
+        "options": [
+            {
+                "label": "",
+                "value": "value",
+                "type": "number",
+                "required": true,
+                "rows": null
+            }
+        ],
+        "formValue": {
+            "value": ""
+        },
+        "payload": "",
+        "submit": "değiştir",
+        "cancel": "iptal",
+        "topic": "topic",
+        "topicType": "msg",
+        "splitLayout": "",
+        "className": "",
+        "x": 540,
+        "y": 3960,
+        "wires": [
+            [
+                "bfe678ed0b5a252e"
+            ]
+        ]
+    },
+    {
+        "id": "bfe678ed0b5a252e",
+        "type": "function",
+        "z": "a7af766e5893a2ae",
+        "g": "49735435522e4a7c",
+        "name": "function MA_OUT_ CALIBRATION_Change",
+        "func": "\n\nvar fc = 6;\nvar sa = 82;\nvar addresses = 2;\nvar value = msg.payload.value;\nvar buf = Buffer.alloc(2);\nbuf.writeInt16BE(value);\n\nvar values = [(buf[0] * 256 + buf[1])]\n\nmsg.payload = { \"value\": values, 'fc': fc, 'unitid': 1, 'address': sa, 'quantity': addresses };\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 910,
+        "y": 3960,
+        "wires": [
+            [
+                "13816edb575a0ed3"
+            ]
+        ]
+    },
+    {
+        "id": "13816edb575a0ed3",
+        "type": "modbus-flex-write",
+        "z": "a7af766e5893a2ae",
+        "g": "49735435522e4a7c",
+        "name": "MA_OUT_ CALIBRATION_Change",
+        "showStatusActivities": false,
+        "showErrors": false,
+        "showWarnings": true,
+        "server": "529d0af5b8fd3aa3",
+        "emptyMsgOnFail": false,
+        "keepMsgProperties": false,
+        "delayOnStart": false,
+        "startDelayTime": "10",
+        "x": 1280,
+        "y": 3960,
+        "wires": [
+            [
+                "b7e545300a4a4e69"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "b7e545300a4a4e69",
+        "type": "debug",
+        "z": "a7af766e5893a2ae",
+        "g": "49735435522e4a7c",
+        "name": "debug 24",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1500,
+        "y": 3960,
+        "wires": []
+    },
+    {
+        "id": "dcba31b1c3c8b2e5",
+        "type": "ui_form",
+        "z": "a7af766e5893a2ae",
+        "g": "49735435522e4a7c",
+        "name": "",
+        "label": "Arıza modu mA Çıkışı Değerini Değiştirme",
+        "group": "800998772e09fb0f",
+        "order": 4,
+        "width": 8,
+        "height": 1,
+        "options": [
+            {
+                "label": "",
+                "value": "value",
+                "type": "number",
+                "required": true,
+                "rows": null
+            }
+        ],
+        "formValue": {
+            "value": ""
+        },
+        "payload": "",
+        "submit": "değiştir",
+        "cancel": "iptal",
+        "topic": "topic",
+        "topicType": "msg",
+        "splitLayout": "",
+        "className": "",
+        "x": 540,
+        "y": 4060,
+        "wires": [
+            [
+                "9344ceba21779480"
+            ]
+        ]
+    },
+    {
+        "id": "9344ceba21779480",
+        "type": "function",
+        "z": "a7af766e5893a2ae",
+        "g": "49735435522e4a7c",
+        "name": "function MA_OUT_FAULT_Change",
+        "func": "\n\nvar fc = 6;\nvar sa = 83;\nvar addresses = 2;\nvar value = msg.payload.value;\nvar buf = Buffer.alloc(2);\nbuf.writeInt16BE(value);\n\nvar values = [(buf[0] * 256 + buf[1])]\n\nmsg.payload = { \"value\": values, 'fc': fc, 'unitid': 1, 'address': sa, 'quantity': addresses };\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 900,
+        "y": 4060,
+        "wires": [
+            [
+                "a473b7578f3f07f8"
+            ]
+        ]
+    },
+    {
+        "id": "a473b7578f3f07f8",
+        "type": "modbus-flex-write",
+        "z": "a7af766e5893a2ae",
+        "g": "49735435522e4a7c",
+        "name": "MA_OUT_FAULT_Change",
+        "showStatusActivities": false,
+        "showErrors": false,
+        "showWarnings": true,
+        "server": "529d0af5b8fd3aa3",
+        "emptyMsgOnFail": false,
+        "keepMsgProperties": false,
+        "delayOnStart": false,
+        "startDelayTime": "10",
+        "x": 1220,
+        "y": 4060,
+        "wires": [
+            [
+                "c90ed88bb249702a"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "c90ed88bb249702a",
+        "type": "debug",
+        "z": "a7af766e5893a2ae",
+        "g": "49735435522e4a7c",
+        "name": "debug 25",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1460,
+        "y": 4060,
+        "wires": []
+    },
+    {
+        "id": "ada1cdf994c807cd",
+        "type": "ui_switch",
+        "z": "a7af766e5893a2ae",
+        "g": "7148e5aacbd83664",
+        "name": "calibration",
+        "label": "Kalibrasyon modunu aç/kapa",
+        "tooltip": "",
+        "group": "578b028f57287157",
+        "order": 4,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "onvalue": "true",
+        "onvalueType": "bool",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "false",
+        "offvalueType": "bool",
+        "officon": "",
+        "offcolor": "",
+        "animate": false,
+        "className": "",
+        "x": 450,
+        "y": 4240,
+        "wires": [
+            [
+                "7050cc5240d245aa"
+            ]
+        ]
+    },
+    {
+        "id": "7050cc5240d245aa",
+        "type": "function",
+        "z": "a7af766e5893a2ae",
+        "g": "7148e5aacbd83664",
+        "name": "function calibration",
+        "func": "var calibration=msg.payload;\nvar close_open;\nif(calibration==true){\n    close_open=1;\n\n}else if(calibration==false){\n    close_open=0;\n}else{\n    node.warn(\"Geçersiz seçim\");\n}\n\n\nmsg.payload=close_open;\n\n\nvar fc = 6;\nvar sa = 100;\nvar addresses = 2;\nvar value = msg.payload;\nvar buf = Buffer.alloc(2);\nbuf.writeInt16BE(value);\n\nvar values = [(buf[0] * 256 + buf[1])]\n\nmsg.payload = { \"value\": values, 'fc': fc, 'unitid': 1, 'address': sa, 'quantity': addresses };\nreturn msg;\n\n\n\n\n\n\n\n\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 830,
+        "y": 4240,
+        "wires": [
+            [
+                "dccdc80c07d1c79c"
+            ]
+        ]
+    },
+    {
+        "id": "dccdc80c07d1c79c",
+        "type": "modbus-flex-write",
+        "z": "a7af766e5893a2ae",
+        "g": "7148e5aacbd83664",
+        "name": "CALIBRATION_MODE",
+        "showStatusActivities": false,
+        "showErrors": false,
+        "showWarnings": true,
+        "server": "529d0af5b8fd3aa3",
+        "emptyMsgOnFail": false,
+        "keepMsgProperties": false,
+        "delayOnStart": false,
+        "startDelayTime": "10",
+        "x": 1220,
+        "y": 4240,
+        "wires": [
+            [
+                "a8ae900d90646a8b"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "a8ae900d90646a8b",
+        "type": "debug",
+        "z": "a7af766e5893a2ae",
+        "g": "7148e5aacbd83664",
+        "name": "debug 26",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1520,
+        "y": 4220,
+        "wires": []
+    },
+    {
+        "id": "e56d5d42c472f373",
+        "type": "ui_button",
+        "z": "a7af766e5893a2ae",
+        "g": "7148e5aacbd83664",
+        "name": "",
+        "group": "b78058c91e6065c3",
+        "order": 5,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Sıfır kalibrasyon ayarla",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "1",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 460,
+        "y": 4480,
+        "wires": [
+            [
+                "cd76055e40d1805a"
+            ]
+        ]
+    },
+    {
+        "id": "cd76055e40d1805a",
+        "type": "function",
+        "z": "a7af766e5893a2ae",
+        "g": "7148e5aacbd83664",
+        "name": "function CALIBRATION_ZERO_ SET",
+        "func": "if (msg.payload == 1) { \n    var fc = 6;\n    var sa = 101;\n    var addresses = 1;\n    var value = 1; \n\n    var buf = Buffer.alloc(2);\n    buf.writeInt16BE(value);\n\n    var values = [(buf[0] * 256 + buf[1])];\n\n    msg.payload = {\n        \"value\": values,\n        'fc': fc,\n        'unitid': 1,\n        'address': sa,\n        'quantity': addresses\n    };\n\n    return msg;\n} else {\n    node.warn(  msg.payload);\n    return null; \n}\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 790,
+        "y": 4480,
+        "wires": [
+            [
+                "cf4540f5fec4e016"
+            ]
+        ]
+    },
+    {
+        "id": "cf4540f5fec4e016",
+        "type": "modbus-flex-write",
+        "z": "a7af766e5893a2ae",
+        "g": "7148e5aacbd83664",
+        "name": "CALIBRATION_ZERO_ SET",
+        "showStatusActivities": false,
+        "showErrors": false,
+        "showWarnings": true,
+        "server": "529d0af5b8fd3aa3",
+        "emptyMsgOnFail": false,
+        "keepMsgProperties": false,
+        "delayOnStart": false,
+        "startDelayTime": "10",
+        "x": 1120,
+        "y": 4480,
+        "wires": [
+            [
+                "6319ad3211397c38"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "6319ad3211397c38",
+        "type": "debug",
+        "z": "a7af766e5893a2ae",
+        "g": "7148e5aacbd83664",
+        "name": "debug 27",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1320,
+        "y": 4480,
+        "wires": []
+    },
+    {
+        "id": "b0b9c55d2679e797",
+        "type": "modbus-read",
+        "z": "a7af766e5893a2ae",
+        "g": "d65eaa2c0f927f2d",
+        "name": "Read ADC&STEP",
+        "topic": "",
+        "showStatusActivities": false,
+        "logIOActivities": false,
+        "showErrors": false,
+        "showWarnings": true,
+        "unitid": "",
+        "dataType": "HoldingRegister",
+        "adr": "107",
+        "quantity": "4",
+        "rate": "2500",
+        "rateUnit": "ms",
+        "delayOnStart": false,
+        "startDelayTime": "10",
+        "server": "529d0af5b8fd3aa3",
+        "useIOFile": false,
+        "ioFile": "",
+        "useIOForPayload": false,
+        "emptyMsgOnFail": false,
+        "x": 610,
+        "y": 5060,
+        "wires": [
+            [
+                "81122d837ef1536a"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "81122d837ef1536a",
+        "type": "function",
+        "z": "a7af766e5893a2ae",
+        "g": "d65eaa2c0f927f2d",
+        "name": "function ADC&STEP",
+        "func": "var scale=msg.payload;\n// Adc değeri Hesaplama\nvar ADCBuffer = Buffer.alloc(4);\nADCBuffer.writeUInt16LE(scale[0], 0);\nADCBuffer.writeUInt16LE(scale[1], 2);\n\nvar AdcValue = ADCBuffer.readFloatLE(0);\nAdcValue = Number(AdcValue.toFixed(2));\n\n// Adım Hesaplama\nvar StepBuffer = Buffer.alloc(4);\nStepBuffer.writeUInt16LE(scale[2], 0);\nStepBuffer.writeUInt16LE(scale[3], 2);\n\nvar StepValue = StepBuffer.readFloatLE(0);\nStepValue = Number(StepValue.toFixed(2));\n\nmsg.payload={\n    AdcValue:AdcValue,\n    StepValue:StepValue\n\n};\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 900,
+        "y": 5060,
+        "wires": [
+            [
+                "81966f4658302e5c"
+            ]
+        ]
+    },
+    {
+        "id": "81966f4658302e5c",
+        "type": "ui_template",
+        "z": "a7af766e5893a2ae",
+        "g": "d65eaa2c0f927f2d",
+        "group": "dc0db93b98018d99",
+        "name": "Read ADC&STEP",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "format": "<div\n    style=\"padding: 10px; color: #333; background-color: transparent; border-radius: 10px; font-family: Arial, sans-serif; border: none; box-shadow: none;\">\n\n\n\n    <p style=\"margin: 15px 0; line-height: 2; font-size: 1.2em; color: #27ae60;\"><strong>Sıfır kalbirasyon ADC\n    değeri :</strong> {{msg.payload.AdcValue}}</p>\n    <p style=\"margin: 15px 0; line-height: 2; font-size: 1.2em; color: #27ae60;\"><strong>Gaz Adım değeri :</strong> {{msg.payload.StepValue}}</p>\n\n</div>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": false,
+        "templateScope": "local",
+        "className": "",
+        "x": 1230,
+        "y": 5060,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "c8185395875f6b2e",
+        "type": "modbus-read",
+        "z": "a7af766e5893a2ae",
+        "g": "d65eaa2c0f927f2d",
+        "name": "Read CALIBRATION_SPAN_ SET",
+        "topic": "",
+        "showStatusActivities": false,
+        "logIOActivities": false,
+        "showErrors": false,
+        "showWarnings": true,
+        "unitid": "",
+        "dataType": "HoldingRegister",
+        "adr": "105",
+        "quantity": "1",
+        "rate": "2000",
+        "rateUnit": "ms",
+        "delayOnStart": false,
+        "startDelayTime": "10",
+        "server": "529d0af5b8fd3aa3",
+        "useIOFile": false,
+        "ioFile": "",
+        "useIOForPayload": false,
+        "emptyMsgOnFail": false,
+        "x": 660,
+        "y": 5180,
+        "wires": [
+            [
+                "4ff3a1871d9d333e"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "4ff3a1871d9d333e",
+        "type": "function",
+        "z": "a7af766e5893a2ae",
+        "g": "d65eaa2c0f927f2d",
+        "name": "function CALIBRATION_SPAN_ SET",
+        "func": "var calibrationSpanStatus = msg.payload;\nvar calibrationStatusText;\n\nif (calibrationSpanStatus == false) {\n    calibrationStatusText = \"KAPALI\";\n\n} else {\n\n    calibrationStatusText = \"AÇIK \";\n}\n\nmsg.payload = {\n    calibrationSpanStatus: calibrationStatusText\n};\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 990,
+        "y": 5180,
+        "wires": [
+            [
+                "6c057464eb304feb",
+                "9bd68661c06e578f"
+            ]
+        ]
+    },
+    {
+        "id": "6c057464eb304feb",
+        "type": "ui_template",
+        "z": "a7af766e5893a2ae",
+        "g": "d65eaa2c0f927f2d",
+        "group": "dc0db93b98018d99",
+        "name": "Read  CALIBRATION_SPAN_ SET",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "format": "<div\n    style=\"padding: 10px; color: #333; background-color: transparent; border-radius: 10px; font-family: Arial, sans-serif; border: none; box-shadow: none;\">\n\n\n\n    <p style=\"margin: 15px 0; line-height: 2; font-size: 1.2em; color: #27ae60;\"><strong>Aralık kalibrasyonu\n    ayarlaması :</strong> {{msg.payload.calibrationSpanStatus}}</p>\n \n\n</div>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": false,
+        "templateScope": "local",
+        "className": "",
+        "x": 1380,
+        "y": 5180,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "9bd68661c06e578f",
+        "type": "debug",
+        "z": "a7af766e5893a2ae",
+        "g": "d65eaa2c0f927f2d",
+        "name": "debug 29",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1260,
+        "y": 5260,
+        "wires": []
+    },
+    {
+        "id": "d0cd4a1cd16da61c",
+        "type": "ui_form",
+        "z": "a7af766e5893a2ae",
+        "g": "7148e5aacbd83664",
+        "name": "",
+        "label": "Gaz kalibrasyon seviyesi",
+        "group": "578b028f57287157",
+        "order": 7,
+        "width": 0,
+        "height": 0,
+        "options": [
+            {
+                "label": "(0-4.4) arası değer girin",
+                "value": "value",
+                "type": "number",
+                "required": true,
+                "rows": null
+            }
+        ],
+        "formValue": {
+            "value": ""
+        },
+        "payload": "",
+        "submit": "Değiştir",
+        "cancel": "İptal",
+        "topic": "topic",
+        "topicType": "msg",
+        "splitLayout": "",
+        "className": "",
+        "x": 450,
+        "y": 4620,
+        "wires": [
+            [
+                "22b2fddbcf1d2a54"
+            ]
+        ]
+    },
+    {
+        "id": "22b2fddbcf1d2a54",
+        "type": "function",
+        "z": "a7af766e5893a2ae",
+        "g": "7148e5aacbd83664",
+        "name": "function CALIBRATION_GAS_ LEVEL",
+        "func": "var fc = 16;\nvar sa = 103;\nvar addresses = 2;\nvar value = parseFloat(msg.payload.value);\n\nvar buf = Buffer.alloc(4);\nbuf.writeFloatLE(value);  \n\nvar values = [buf.readUInt16LE(0), buf.readUInt16LE(2)];  \n\nmsg.payload = {\n    value: values,\n    fc: fc,\n    unitid: 1,\n    address: sa,\n    quantity: addresses\n};\n\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 810,
+        "y": 4620,
+        "wires": [
+            [
+                "68ca078b587abc4e"
+            ]
+        ]
+    },
+    {
+        "id": "68ca078b587abc4e",
+        "type": "modbus-flex-write",
+        "z": "a7af766e5893a2ae",
+        "g": "7148e5aacbd83664",
+        "name": "CALIBRATION_GAS_ LEVEL",
+        "showStatusActivities": false,
+        "showErrors": false,
+        "showWarnings": true,
+        "server": "529d0af5b8fd3aa3",
+        "emptyMsgOnFail": false,
+        "keepMsgProperties": false,
+        "delayOnStart": false,
+        "startDelayTime": "10",
+        "x": 1170,
+        "y": 4620,
+        "wires": [
+            [
+                "291e4524336106d2"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "291e4524336106d2",
+        "type": "debug",
+        "z": "a7af766e5893a2ae",
+        "g": "7148e5aacbd83664",
+        "name": "debug 31",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1420,
+        "y": 4620,
+        "wires": []
+    },
+    {
+        "id": "283b6690284d80f9",
+        "type": "function",
+        "z": "a7af766e5893a2ae",
+        "g": "d65eaa2c0f927f2d",
+        "name": "function CALIBRATION_GAS_ LEVEL",
+        "func": "var inputArray=msg.payload;\nvar CALIBRATION_GAS_LEVEL_Buffer = Buffer.alloc(4);\nCALIBRATION_GAS_LEVEL_Buffer.writeUInt16LE(inputArray[0], 0);\nCALIBRATION_GAS_LEVEL_Buffer.writeUInt16LE(inputArray[1], 2);\n\nvar CALIBRATION_GAS_LEVEL = CALIBRATION_GAS_LEVEL_Buffer.readFloatLE(0);\nCALIBRATION_GAS_LEVEL = Number(CALIBRATION_GAS_LEVEL.toFixed(2));\n\n\nmsg.payload={\n\n    CALIBRATION_GAS_LEVEL:CALIBRATION_GAS_LEVEL\n}\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 990,
+        "y": 4980,
+        "wires": [
+            [
+                "506d8229298f6f43",
+                "338d3cc462f57960"
+            ]
+        ]
+    },
+    {
+        "id": "8529e2ba87102334",
+        "type": "modbus-read",
+        "z": "a7af766e5893a2ae",
+        "g": "d65eaa2c0f927f2d",
+        "name": "Read CALIBRATION_GAS_ LEVEL",
+        "topic": "",
+        "showStatusActivities": false,
+        "logIOActivities": false,
+        "showErrors": false,
+        "showWarnings": true,
+        "unitid": "",
+        "dataType": "HoldingRegister",
+        "adr": "103",
+        "quantity": "2",
+        "rate": "2300",
+        "rateUnit": "ms",
+        "delayOnStart": false,
+        "startDelayTime": "10",
+        "server": "529d0af5b8fd3aa3",
+        "useIOFile": false,
+        "ioFile": "",
+        "useIOForPayload": false,
+        "emptyMsgOnFail": false,
+        "x": 580,
+        "y": 4980,
+        "wires": [
+            [
+                "283b6690284d80f9"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "506d8229298f6f43",
+        "type": "ui_template",
+        "z": "a7af766e5893a2ae",
+        "g": "d65eaa2c0f927f2d",
+        "group": "dc0db93b98018d99",
+        "name": "Read CALIBRATION_MODE_Status",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "format": "<div style=\"padding: 10px; color: #333; background-color: transparent; border-radius: 10px; font-family: Arial, sans-serif; border: none; box-shadow: none;\">\n\n    \n\n    <p style=\"margin: 15px 0; line-height: 2; font-size: 1.2em; color: #27ae60;\"><strong>Gaz kalibrasyon\nseviyesi :</strong> {{msg.payload.CALIBRATION_GAS_LEVEL}}</p>\n   \n     \n</div>\n",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": false,
+        "templateScope": "local",
+        "className": "",
+        "x": 1350,
+        "y": 4980,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "338d3cc462f57960",
+        "type": "debug",
+        "z": "a7af766e5893a2ae",
+        "g": "d65eaa2c0f927f2d",
+        "name": "debug 28",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1300,
+        "y": 4920,
+        "wires": []
+    },
+    {
+        "id": "7be2e522c755fbbe",
+        "type": "modbus-read",
+        "z": "a7af766e5893a2ae",
+        "g": "d65eaa2c0f927f2d",
+        "name": "Read CALIBRATION_MODE",
+        "topic": "",
+        "showStatusActivities": false,
+        "logIOActivities": false,
+        "showErrors": false,
+        "showWarnings": true,
+        "unitid": "",
+        "dataType": "HoldingRegister",
+        "adr": "100",
+        "quantity": "1",
+        "rate": "3000",
+        "rateUnit": "ms",
+        "delayOnStart": false,
+        "startDelayTime": "10",
+        "server": "529d0af5b8fd3aa3",
+        "useIOFile": false,
+        "ioFile": "",
+        "useIOForPayload": false,
+        "emptyMsgOnFail": false,
+        "x": 560,
+        "y": 5360,
+        "wires": [
+            [
+                "af334bd2363a7680"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "af334bd2363a7680",
+        "type": "function",
+        "z": "a7af766e5893a2ae",
+        "g": "d65eaa2c0f927f2d",
+        "name": "function calibration",
+        "func": "var calibrationStatus = msg.payload;\nvar calibrationStatusText;\n\nif (calibrationStatus == false) {\n    calibrationStatusText = \"KAPALI\";\n\n} else {\n\n    calibrationStatusText = \"AÇIK \";\n}\n\nmsg.payload = {\n    calibrationStatus: calibrationStatusText\n};\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 990,
+        "y": 5360,
+        "wires": [
+            [
+                "c17c4655107cbe36"
+            ]
+        ]
+    },
+    {
+        "id": "c17c4655107cbe36",
+        "type": "ui_template",
+        "z": "a7af766e5893a2ae",
+        "g": "d65eaa2c0f927f2d",
+        "group": "dc0db93b98018d99",
+        "name": "Read CALIBRATION_MODE_Status",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "format": "<div style=\"padding: 10px; color: #333; background-color: transparent; border-radius: 10px; font-family: Arial, sans-serif; border: none; box-shadow: none;\">\n\n    \n\n    <p style=\"margin: 15px 0; line-height: 2; font-size: 1.2em; color: #27ae60;\"><strong>Kalibrasyon Modu  :</strong> {{msg.payload.calibrationStatus}}</p>\n   \n     \n</div>\n",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": false,
+        "templateScope": "local",
+        "className": "",
+        "x": 1350,
+        "y": 5360,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "930851d93a1ba2a4",
+        "type": "ui_button",
+        "z": "a7af766e5893a2ae",
+        "g": "7148e5aacbd83664",
+        "name": "",
+        "group": "b78058c91e6065c3",
+        "order": 5,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Aralık kalibrasyonunu ayarla",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "1",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 500,
+        "y": 4360,
+        "wires": [
+            [
+                "1ec5e0957506a58e"
+            ]
+        ]
+    },
+    {
+        "id": "1ec5e0957506a58e",
+        "type": "function",
+        "z": "a7af766e5893a2ae",
+        "g": "7148e5aacbd83664",
+        "name": "function CALIBRATION_SPAN_ SET",
+        "func": "if (msg.payload == 1) { \n    var fc = 6;\n    var sa = 105;\n    var addresses = 1;\n    var value = 1; \n\n    var buf = Buffer.alloc(2);\n    buf.writeInt16BE(value);\n\n    var values = [(buf[0] * 256 + buf[1])];\n\n    msg.payload = {\n        \"value\": values,\n        'fc': fc,\n        'unitid': 1,\n        'address': sa,\n        'quantity': addresses\n    };\n\n    return msg;\n} else {\n    node.warn(  msg.payload);\n    return null; \n}\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 830,
+        "y": 4360,
+        "wires": [
+            [
+                "75b75b187377b306"
+            ]
+        ]
+    },
+    {
+        "id": "75b75b187377b306",
+        "type": "modbus-flex-write",
+        "z": "a7af766e5893a2ae",
+        "g": "7148e5aacbd83664",
+        "name": "CALIBRATION_SPAN_ SET",
+        "showStatusActivities": false,
+        "showErrors": false,
+        "showWarnings": true,
+        "server": "529d0af5b8fd3aa3",
+        "emptyMsgOnFail": false,
+        "keepMsgProperties": false,
+        "delayOnStart": false,
+        "startDelayTime": "10",
+        "x": 1160,
+        "y": 4360,
+        "wires": [
+            [
+                "2b47f9e39e779e51"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "2b47f9e39e779e51",
+        "type": "debug",
+        "z": "a7af766e5893a2ae",
+        "g": "7148e5aacbd83664",
+        "name": "debug 30",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1360,
+        "y": 4360,
+        "wires": []
+    },
+    {
+        "id": "6e0a872591c1be2d",
+        "type": "ui_button",
+        "z": "a7af766e5893a2ae",
+        "g": "7148e5aacbd83664",
+        "name": "",
+        "group": "b78058c91e6065c3",
+        "order": 8,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Kalibrasyon Fabrika Ayarlarına Dön",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "1",
+        "payloadType": "num",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 460,
+        "y": 4700,
+        "wires": [
+            [
+                "818de5987dfb26e8"
+            ]
+        ]
+    },
+    {
+        "id": "818de5987dfb26e8",
+        "type": "function",
+        "z": "a7af766e5893a2ae",
+        "g": "7148e5aacbd83664",
+        "name": "function SENSOR_CONF_ RESET",
+        "func": "if (msg.payload == 1) {\n    var fc = 6;\n    var sa = 106;\n    var addresses = 1;\n    var value = 1;\n\n    var buf = Buffer.alloc(2);\n    buf.writeInt16BE(value);\n\n    var values = [(buf[0] * 256 + buf[1])];\n\n    msg.payload = {\n        \"value\": values,\n        'fc': fc,\n        'unitid': 1,\n        'address': sa,\n        'quantity': addresses\n    };\n    node.warn(\"Kalibrasyon Resetlendi\");\n\n    return msg;\n} else {\n    node.warn(msg.payload);\n    return null;\n}\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 800,
+        "y": 4700,
+        "wires": [
+            [
+                "6969d8aea49f597b"
+            ]
+        ]
+    },
+    {
+        "id": "6969d8aea49f597b",
+        "type": "modbus-flex-write",
+        "z": "a7af766e5893a2ae",
+        "g": "7148e5aacbd83664",
+        "name": "SENSOR_CONF_ RESET",
+        "showStatusActivities": false,
+        "showErrors": false,
+        "showWarnings": true,
+        "server": "529d0af5b8fd3aa3",
+        "emptyMsgOnFail": false,
+        "keepMsgProperties": false,
+        "delayOnStart": false,
+        "startDelayTime": "10",
+        "x": 1140,
+        "y": 4700,
+        "wires": [
+            [
+                "43f58a4c7e9f44d9"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "43f58a4c7e9f44d9",
+        "type": "debug",
+        "z": "a7af766e5893a2ae",
+        "name": "debug 32",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1400,
+        "y": 4700,
+        "wires": []
+    },
+    {
+        "id": "0ebbba84b1c8df6f",
+        "type": "modbus-read",
+        "z": "a7af766e5893a2ae",
+        "g": "9662d192854de326",
+        "name": "Read Modbus",
+        "topic": "",
+        "showStatusActivities": false,
+        "logIOActivities": false,
+        "showErrors": false,
+        "showWarnings": true,
+        "unitid": "",
+        "dataType": "HoldingRegister",
+        "adr": "54",
+        "quantity": "4",
+        "rate": "2000",
+        "rateUnit": "ms",
+        "delayOnStart": false,
+        "startDelayTime": "10",
+        "server": "529d0af5b8fd3aa3",
+        "useIOFile": false,
+        "ioFile": "",
+        "useIOForPayload": false,
+        "emptyMsgOnFail": false,
+        "x": 270,
+        "y": 340,
+        "wires": [
+            [
+                "43219f910a28fbc1"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "61c5e747e255ef33",
+        "type": "debug",
+        "z": "a7af766e5893a2ae",
+        "g": "9662d192854de326",
+        "name": "debug 34",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 880,
+        "y": 240,
+        "wires": []
+    },
+    {
+        "id": "81a1f96feac1868f",
+        "type": "modbus-read",
+        "z": "a7af766e5893a2ae",
+        "g": "9662d192854de326",
+        "name": "Read Modbus",
+        "topic": "",
+        "showStatusActivities": false,
+        "logIOActivities": false,
+        "showErrors": false,
+        "showWarnings": true,
+        "unitid": "",
+        "dataType": "HoldingRegister",
+        "adr": "58",
+        "quantity": "1",
+        "rate": "2100",
+        "rateUnit": "ms",
+        "delayOnStart": false,
+        "startDelayTime": "10",
+        "server": "529d0af5b8fd3aa3",
+        "useIOFile": false,
+        "ioFile": "",
+        "useIOForPayload": false,
+        "emptyMsgOnFail": false,
+        "x": 310,
+        "y": 760,
+        "wires": [
+            [
+                "2b9541a08e724841"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "2b9541a08e724841",
+        "type": "function",
+        "z": "a7af766e5893a2ae",
+        "g": "9662d192854de326",
+        "name": "function TempName",
+        "func": "var inputArray=parseInt(msg.payload);\nvar TempNameUnit=\" \";\n\n\nswitch(inputArray){\n    case 0:\n    TempNameUnit=\"Kelvin\";\n    break;\n    case 1:\n    TempNameUnit=\"Celcius\";\n    break;\n    case 2:\n    TempNameUnit=\"Fahrenheit\";\n    break;\n\n}\nmsg.topic=TempNameUnit;\n\nmsg.payload={\n    TempNameUnit:TempNameUnit\n}\n\n\n\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 560,
+        "y": 760,
+        "wires": [
+            [
+                "6557d7fe431a2a45",
+                "process_sicaklik",
+                "c2e6be66696d6d81"
+            ]
+        ]
+    },
+    {
+        "id": "6557d7fe431a2a45",
+        "type": "ui_template",
+        "z": "a7af766e5893a2ae",
+        "g": "9662d192854de326",
+        "group": "02938d319320672a",
+        "name": "TempName",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "format": "<div style=\"padding: 10px; color: #333; background-color: transparent; border-radius: 10px; font-family: Arial, sans-serif; border: none; box-shadow: none;\">\n\n    \n\n    <p style=\"margin: 15px 0; line-height: 2; font-size: 1.2em; color: #27ae60;\"><strong>Sıcaklık Birimi :</strong> {{msg.payload.TempNameUnit}}</p>\n   \n     \n</div>\n",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": false,
+        "templateScope": "local",
+        "className": "",
+        "x": 790,
+        "y": 780,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "c2e6be66696d6d81",
+        "type": "debug",
+        "z": "a7af766e5893a2ae",
+        "g": "9662d192854de326",
+        "name": "debug 35",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 640,
+        "y": 640,
+        "wires": []
+    },
+    {
+        "id": "43219f910a28fbc1",
+        "type": "function",
+        "z": "a7af766e5893a2ae",
+        "g": "9662d192854de326",
+        "name": "function GasName&FullScale",
+        "func": "var inputArray = msg.payload;\n\n\nvar fullScaleBuffer = Buffer.alloc(4);\nfullScaleBuffer.writeUInt16LE(inputArray[0], 0);\nfullScaleBuffer.writeUInt16LE(inputArray[1], 2);\n\nvar fullScale = fullScaleBuffer.readFloatLE(0);\nfullScale = Number(fullScale.toFixed(2));\n\n\n\nvar GasNameBuffer = Buffer.alloc(4);\nGasNameBuffer.writeUInt16BE(inputArray[2], 0);\nGasNameBuffer.writeUInt16BE(inputArray[3], 2);\n\nvar GasNameUnit = GasNameBuffer.toString('ascii').replace(/\\0/g, '').trim();\n\nmsg.topic = GasNameUnit;\nmsg.payload = {\n    fullScale: fullScale,\n    GasNameUnit: GasNameUnit\n};\n\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 600,
+        "y": 320,
+        "wires": [
+            [
+                "process_gaz"
+            ]
+        ]
+    },
+    {
+        "id": "0f1a1f4ecd4bd570",
+        "type": "function",
+        "z": "a7af766e5893a2ae",
+        "g": "9662d192854de326",
+        "name": "function GasName",
+        "func": "var inputArray=msg.payload;\n\n\nvar GasNameBuffer = Buffer.alloc(4);\nGasNameBuffer.writeUInt16BE(inputArray[0], 0);\nGasNameBuffer.writeUInt16BE(inputArray[1], 2);\n\nvar GasNameUnit = GasNameBuffer.toString('ascii').replace(/\\0/g, '').trim();\n\n\nmsg.topic= GasNameUnit;\n\nmsg.payload={\n    GasNameUnit:GasNameUnit\n}\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1250,
+        "y": 140,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "10eda9484bfbc010",
+        "type": "function",
+        "z": "a7af766e5893a2ae",
+        "g": "9662d192854de326",
+        "name": "Process Gaz",
+        "func": "var FullScale = msg.payload.fullScale;\n\n\nif (msg.hasOwnProperty('topic') && (msg.topic == \"%VOL\" || msg.topic == \"%LEL\" || msg.topic == \"ppm\")) {\n    context.set(\"selectedUnit\", msg.payload.GasNameUnit);\n    context.set(\"FullScale\", FullScale); \n    node.warn(\"Birim seçildi: \" + msg.payload.GasNameUnit);\n    node.warn(\"FullScale Değeri: \" + FullScale);\n    return;\n}\n\nvar selectedUnit = context.get(\"selectedUnit\");\nFullScale = context.get(\"FullScale\"); \n\n// \nif (typeof selectedUnit === 'undefined') {\n    node.warn(\"Birim seçimi yapılmadı! Varsayılan olarak %VOL kullanılıyor.\");\n    selectedUnit = '%VOL';\n}\n\nif (typeof FullScale === 'undefined') {\n    node.warn(\"FullScale değeri context'ten alınamadı!\");\n    return;  \n}\n\nvar rawData = new ArrayBuffer(4);\nvar intView = new Uint16Array(rawData);\nvar fltView = new Float32Array(rawData);\n\nintView[0] = msg.payload[0]; // Düşük byte\nintView[1] = msg.payload[1]; // Yüksek byte\n\nvar GasValue = parseFloat(fltView[0].toFixed(2));\nnode.warn(\"Gaz Değeri: \" + GasValue);\n\nvar msgVol = { payload: GasValue };\nvar msgLEL = { payload: GasValue };\nvar msgPPM = { payload: GasValue };\n\nswitch (selectedUnit) {\n    case '%VOL':\n    msgVol.ui_chart={\n        ymin:0,\n        ymax:FullScale\n    };\n        msgVol.ui_control = {\n            min: 0,\n            max: FullScale \n        };\n    \n        node.warn(\"Vol içinde FullScale: \" + FullScale);\n        node.warn(\"Gauge için %VOL seçildi.\");\n        msgPPM.payload = 0;\n        msgLEL.payload = 0;\n        node.send([msgVol, null, null]);\n        break;\n\n    case '%LEL':\n        msgLEL.ui_control = {\n            min: 0,\n            max: FullScale\n        };\n        node.warn(\"LEL içinde FullScale: \" + FullScale);\n        node.warn(\"Gauge için %LEL seçildi.\");\n        msgVol.payload = 0;\n        msgPPM.payload = 0;\n        node.send([null, msgLEL, null]);\n        break;\n\n    case 'ppm':\n        msgPPM.ui_control = {\n            min: 0,\n            max: FullScale\n        };\n        node.warn(\"PPM içinde FullScale: \" + FullScale);\n        node.warn(\"Gauge için ppm seçildi.\");\n        msgVol.payload = 0;\n        msgLEL.payload = 0;\n        node.send([null, null, msgPPM]);\n        break;\n\n    default:\n        msgVol.ui_control = {\n            min: 0,\n            max: FullScale\n        };\n        node.warn(\"Varsayılan birim: %VOL kullanılıyor.\");\n        msgLEL.payload = 0;\n        msgPPM.payload = 0;\n        node.send([msgVol, null, null]);\n        break;\n}\n\nreturn [msgVol, msgLEL, msgPPM];\n",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1290,
+        "y": 60,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "modbus-read-target-gas",
+        "type": "modbus-read",
+        "z": "a7af766e5893a2ae",
+        "g": "9662d192854de326",
+        "name": "Read TARGET_GAS",
+        "topic": "",
+        "showStatusActivities": true,
+        "logIOActivities": false,
+        "showErrors": false,
+        "showWarnings": true,
+        "unitid": "1",
+        "dataType": "HoldingRegister",
+        "adr": "50",
+        "quantity": "8",
+        "rate": "5",
+        "rateUnit": "s",
+        "delayOnStart": false,
+        "startDelayTime": "10",
+        "server": "529d0af5b8fd3aa3",
+        "useIOFile": false,
+        "ioFile": "",
+        "useIOForPayload": false,
+        "emptyMsgOnFail": false,
+        "x": 550,
+        "y": 1100,
+        "wires": [
+            [
+                "00c3ce50b39626ad"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "f29d581c07a94539",
+        "type": "ui_template",
+        "z": "a7af766e5893a2ae",
+        "g": "9662d192854de326",
+        "group": "02938d319320672a",
+        "name": "Hedef Değerler",
+        "order": 1,
+        "width": 6,
+        "height": 5,
+        "format": "<div style=\"padding: 30px; color: #333; background-color: transparent; border-radius: 10px; font-family: Arial, sans-serif; border: none; box-shadow: none;\">\n\n    \n    \n    <p style=\"margin: 15px 0; line-height: 2; font-size: 1.2em; color: #27ae60;\"><strong>Hedef Gaz :</strong> {{msg.payload.asciiResult}}</p>\n    <p style=\"margin: 15px 0; line-height: 2; font-size: 1.2em; color: #27ae60;\"><strong>Ölçek:</strong> {{msg.payload.fullScale}}</p>\n     <p style=\"margin: 15px 0; line-height: 2; font-size: 1.2em; color: #27ae60;\"><strong>Gaz Birimi:</strong> {{msg.payload.gasMeasurementUnit}}</p>\n</div>\n",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": false,
+        "templateScope": "local",
+        "className": "",
+        "x": 1180,
+        "y": 1100,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "00c3ce50b39626ad",
+        "type": "function",
+        "z": "a7af766e5893a2ae",
+        "g": "9662d192854de326",
+        "name": "function 26",
+        "func": "const inputArray = msg.payload;\n\n//  Numara'dan ASCII'ye Çevirme\nfunction numToAscii(num) {\n    var byte1 = num >> 8;\n    var byte2 = num & 0xFF;\n\n    var char1 = String.fromCharCode(byte1);\n    var char2 = String.fromCharCode(byte2);\n\n    return char1 + char2;\n}\n\nvar asciiResult = inputArray.slice(0, 4).map(numToAscii).join('');\nasciiResult = asciiResult.replace(/\\0/g, '');\n\n// Full Scale Hesaplama\nvar fullScaleBuffer = Buffer.alloc(4);\nfullScaleBuffer.writeUInt16LE(inputArray[4], 0);\nfullScaleBuffer.writeUInt16LE(inputArray[5], 2);\n\nvar fullScale = fullScaleBuffer.readFloatLE(0);\nfullScale = Number(fullScale.toFixed(2));\n\n//  Gaz Ölçüm Birimi\nvar gasUnitBuffer = Buffer.alloc(4);\ngasUnitBuffer.writeUInt16BE(inputArray[6], 0);\ngasUnitBuffer.writeUInt16BE(inputArray[7], 2);\n\nvar gasMeasurementUnit = gasUnitBuffer.toString('ascii').replace(/\\0/g, '').trim();\n\nmsg.payload = {\n    asciiResult: asciiResult,            \n    fullScale: fullScale,                 \n    gasMeasurementUnit: gasMeasurementUnit \n};\nmsg.ui_control = {\n    min: 0,  \n    max: msg.payload.fullScale  \n};\n\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 810,
+        "y": 1100,
+        "wires": [
+            [
+                "f29d581c07a94539"
+            ]
+        ]
+    },
+    {
+        "id": "80024b90c7a7a188",
+        "type": "function",
+        "z": "a7af766e5893a2ae",
+        "g": "6ec2728d8720167d",
+        "name": "function Com",
+        "func": "const SerialPort = require('serialport');\n\n// COM portları listele\nSerialPort.list().then(\n  ports => {\n    ports.forEach(port => {\n      console.log(port.path);\n    });\n  },\n  err => console.error('Hata:', err)\n);\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 830,
+        "y": 5520,
+        "wires": [
+            [
+                "5abbe547bf82a812"
+            ]
+        ]
+    },
+    {
+        "id": "54ce64f9a00487f2",
+        "type": "exec",
+        "z": "a7af766e5893a2ae",
+        "g": "6ec2728d8720167d",
+        "command": "wmic path Win32_SerialPort",
+        "addpay": "",
+        "append": "",
+        "useSpawn": "false",
+        "timer": "",
+        "winHide": false,
+        "oldrc": false,
+        "name": "",
+        "x": 600,
+        "y": 5520,
+        "wires": [
+            [
+                "80024b90c7a7a188",
+                "c12b97909ea0c576"
+            ],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "5abbe547bf82a812",
+        "type": "ui_dropdown",
+        "z": "a7af766e5893a2ae",
+        "g": "6ec2728d8720167d",
+        "name": "",
+        "label": "Selecting Com",
+        "tooltip": "",
+        "place": "Select option",
+        "group": "7a04771aa82ad9c9",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "multiple": false,
+        "options": [
+            {
+                "label": "",
+                "value": "",
+                "type": "str"
+            }
+        ],
+        "payload": "",
+        "topic": "topic",
+        "topicType": "msg",
+        "className": "",
+        "x": 1020,
+        "y": 5520,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "c12b97909ea0c576",
+        "type": "debug",
+        "z": "a7af766e5893a2ae",
+        "g": "6ec2728d8720167d",
+        "name": "debug 36",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 800,
+        "y": 5620,
+        "wires": []
+    },
+    {
+        "id": "cad7652c4017df7d",
+        "type": "inject",
+        "z": "a7af766e5893a2ae",
+        "g": "6ec2728d8720167d",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 380,
+        "y": 5540,
+        "wires": [
+            [
+                "54ce64f9a00487f2"
+            ]
+        ]
+    },
+    {
+        "id": "7b782c66115bad9f",
+        "type": "comment",
+        "z": "a7af766e5893a2ae",
+        "name": "",
+        "info": "seçilen değer volse gizli bir text olacak ve o textin ismi vol seçildi olacak veya ppm seçildiyse ppm seçildi olacak. veyahut seçilen birim neyse orada * semblu çıkacak seçim başka seçim olursa o seçimin olduğu yere gidecek",
+        "x": 1320,
+        "y": 1240,
+        "wires": []
+    }
+]
